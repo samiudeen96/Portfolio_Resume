@@ -71,33 +71,6 @@ export const education: TimelineItemType[] = [
 
 export const projects = [
   {
-    name: "Expense Tracker",
-    description:
-      "Built a finance tracking app to manage income and expenses with real-time balance updates. Included category-wise summaries for better financial insights.",
-    tags: [
-      {
-        name: "react",
-        color: "text-blue-400",
-      },
-      {
-        name: "tailwind",
-        color: "text-blue-500",
-      },
-      {
-        name: "node.js",
-        color: "text-green-500",
-      },
-      {
-        name: "MySQL",
-        color: "text-blue-900",
-      },
-    ],
-    category: "FullStack Development",
-    image: expTracker,
-    source_code_link: "https://github.com/samiudeen96/ExpenseTracker",
-    live_link: "https://expensetracker-samiudeen.vercel.app/",
-  },
-  {
     name: "Ecommerce",
     description:
       "Web-based platform for buying and selling products or services. It includes features like product listings, shopping carts, secure payments, and order management.",
@@ -146,6 +119,33 @@ export const projects = [
     image: hotelGame,
     source_code_link: "https://github.com/samiudeen96/hotelGame",
     live_link: "https://hasnatech.github.io/hotel_game/",
+  },
+    {
+    name: "Expense Tracker",
+    description:
+      "Built a finance tracking app to manage income and expenses with real-time balance updates. Included category-wise summaries for better financial insights.",
+    tags: [
+      {
+        name: "react",
+        color: "text-blue-400",
+      },
+      {
+        name: "tailwind",
+        color: "text-blue-500",
+      },
+      {
+        name: "node.js",
+        color: "text-green-500",
+      },
+      {
+        name: "MySQL",
+        color: "text-blue-900",
+      },
+    ],
+    category: "FullStack Development",
+    image: expTracker,
+    source_code_link: "https://github.com/samiudeen96/ExpenseTracker",
+    live_link: "https://expensetracker-samiudeen.vercel.app/",
   },
   {
     name: "3D Portfolio",

@@ -29,21 +29,21 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 }) => {
   return (
     <div>
-      <div className="bg-[#f9f9f9] p-4 rounded-lg sm:w-[290px] w-full shadow">
+      <div className="p-4 rounded-lg sm:w-[360px] w-full shadow-md border-2 border-white">
         <div className="">
           <div className="flex justify-between items-end">
             <h3 className="font-semibold text-[20px]">{name}</h3>
 
-            <div className=" inset-0 flex justify-end card-img_hover gap-1">
+            <div className=" inset-0 flex justify-end card-img_hover gap-2">
               {/* GitHub */}
               <div
                 onClick={() => window.open(source_code_link, "_blank")}
-                className="w-8 h-8 rounded-full flex justify-center items-center cursor-pointer"
+                className="w-7 h-7 rounded-full flex justify-center items-center cursor-pointer"
               >
                 <Image
                   src={github}
                   alt="github"
-                  className="w-2/3 h-2/3 object-contain"
+                  className="w-3/3 h-3/3 object-contain"
                 />
               </div>
 
@@ -63,11 +63,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 
           {/* <p className="mt-2 text-secondary text-[14px]">{description}</p> */}
         </div>
-        <div className="relative w-full sm:h-[160px] mt-4">
+        <div className="relative w-full sm:h-[180px] mt-4">
           <Image
             src={image}
             alt={name}
-            className="w-full h-full object-contain rounded-lg"
+            className="w-full h-full object-cover rounded-lg"
           />
         </div>
 

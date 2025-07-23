@@ -5,10 +5,15 @@ import github from "../../public/github.svg";
 import live from "../../public/live.png";
 import Image, { StaticImageData } from "next/image";
 
+interface Tag {
+  name: string;
+  color: string;
+}
+
 interface ProjectCardProps {
   name: string;
   description: string;
-  tags:any;
+  tags: Tag[];
   image: string | StaticImageData;
   source_code_link: string;
   live_link: string;
@@ -57,12 +62,14 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             </div>
           </div>
         </div>
+
         <div className="mt-5">
           <h3 className="font-bold text-[20px]">{name}</h3>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
+
         <div className="flex flex-wrap gap-2 mt-4">
-          {tags.map((tag: any) => (
+          {tags.map((tag) => (
             <p key={tag.name} className={`text-[14px] ${tag.color}`}>
               #{tag.name}
             </p>

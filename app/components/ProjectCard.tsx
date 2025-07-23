@@ -63,11 +63,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 
           {/* <p className="mt-2 text-secondary text-[14px]">{description}</p> */}
         </div>
-        <div className="relative w-full h-[160px] mt-4">
+        <div className="relative w-full sm:h-[160px] mt-4">
           <Image
             src={image}
             alt={name}
-            className="w-full h-full object-cover rounded-lg"
+            className="w-full h-full object-contain rounded-lg"
           />
         </div>
 

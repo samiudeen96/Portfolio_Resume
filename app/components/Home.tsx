@@ -29,18 +29,17 @@ const Home = () => {
             </h3>
           </div>
         </div>
-
         <p className="sm:mt-10 mt-6 text-center sm:text-[22px] text-lg">
           I craft seamless user interfaces, interactive experiences, and modern
           web applications.
         </p>
-
         <div className="flex flex-wrap divide-x divide-gray-400 mt-4 justify-center sm:text-lg text-sm ">
           <div className="sm:px-4 px-2">Frontend Developer</div>
-          <div className="sm:px-4 px-2">MERN Stack Developer</div>
           <div className="sm:px-4 px-2">Full Stack Developer</div>
+          <div className="sm:px-4 px-2">React.js & Node.js</div>
+          <div className="sm:px-4 px-2">MERN Stack Developer</div>
+          <div className="sm:px-4 px-2">Web Apps & API Development</div>
         </div>
-
         <div className="flex justify-center flex-wrap mt-6 gap-2">
           <div className="flex items-center bg-gray-100 rounded-md sm:px-4 px-4">
             {/* <Image src="/pin.svg" width={20} height={20} alt="location" /> */}
@@ -59,7 +58,6 @@ const Home = () => {
             <p>+971 502126746</p>
           </div>
         </div>
-
         <div className=" mt-10 flex gap-10 items-center justify-center">
           <button className="relative p-0 mx-2 border-none bg-transparent cursor-pointer outline-offset-1 transition duration-250 hover:brightness-110">
             <span className="absolute top-0 left-0 w-full h-full rounded-[12px] bg-black/25 shadow-transform transition-all duration-[600ms] ease-[cubic-bezier(0.3,0.7,0.4,1)] translate-y-[2px] hover:translate-y-[4px] active:translate-y-[1px]"></span>

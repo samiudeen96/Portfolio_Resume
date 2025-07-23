@@ -1,5 +1,8 @@
 import React from "react";
 import Title from "./Title";
+import SubTitle from "./SubTitle";
+import ServiceCard from "./ServiceCard";
+import { services } from "../constant/constant";
 
 const About = () => {
   return (
@@ -19,6 +22,15 @@ const About = () => {
           opportunities in Dubai or Abu Dhabi, where I can contribute to modern
           web platforms and collaborate with creative teams.
         </p>
+
+        <SubTitle text="What I’m Doing" />
+
+        <div className="flex gap-6 flex-wrap">
+          {services.map((service: any, index: number)=>(
+            <ServiceCard key={index} {...service} />
+          ))}
+        </div>
+
       </div>
     </div>
   );

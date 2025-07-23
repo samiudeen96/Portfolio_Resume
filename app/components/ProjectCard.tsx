@@ -3,23 +3,24 @@
 import React from "react";
 import github from "../../public/github.svg";
 import live from "../../public/live.png";
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
+import Project from "../model/projectModel";
 
 // interface Tag {
 //   name: string;
 //   color: string;
 // }
 
-interface ProjectCardProps {
-  name: string;
-  // description: string;
-  // tags: Tag[];
-  image: string | StaticImageData;
-  source_code_link: string;
-  live_link: string;
-}
+// interface ProjectCardProps {
+//   name: string;
+//   // description: string;
+//   // tags: Tag[];
+//   image: string | StaticImageData;
+//   source_code_link: string;
+//   live_link: string;
+// }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({
+const ProjectCard: React.FC<Project> = ({
   name,
   // description,
   // tags,

@@ -1,16 +1,16 @@
-
-import crescent from "../../public/crescent.png"
-import jamal from "../../public/jamal.png"
-import hasnatech from "../../public/hasnatech.png"
-import ilife from "../../public/ilife.png"
+import crescent from "../../public/crescent.png";
+import jamal from "../../public/jamal.png";
+import hasnatech from "../../public/hasnatech.png";
+import ilife from "../../public/ilife.png";
+import Service from "../model/serviceModel";
 
 // Project
-import collection from "../../public/project/collection.png"
-import expTracker from "../../public/project/expTracker.png"
-import hotelGame from "../../public/project/hotelGame.png"
-import portfolio from "../../public/project/portfolio.png"
-import { TimelineItemType } from "./type"
-import Project from "../model/projectModel"
+import collection from "../../public/project/collection.png";
+import expTracker from "../../public/project/expTracker.png";
+import hotelGame from "../../public/project/hotelGame.png";
+import portfolio from "../../public/project/portfolio.png";
+import { TimelineItemType } from "./type";
+import Project from "../model/projectModel";
 // import todo from "../../public/project/todo.png"
 
 export const experiences: TimelineItemType[] = [
@@ -69,8 +69,6 @@ export const education: TimelineItemType[] = [
   },
 ];
 
-
-
 export const projects: Project[] = [
   {
     name: "Ecommerce",
@@ -122,7 +120,7 @@ export const projects: Project[] = [
     source_code_link: "https://github.com/samiudeen96/hotelGame",
     live_link: "https://hasnatech.github.io/hotel_game/",
   },
-    {
+  {
     name: "Expense Tracker",
     description:
       "Built a finance tracking app to manage income and expenses with real-time balance updates. Included category-wise summaries for better financial insights.",
@@ -198,5 +196,38 @@ export const projects: Project[] = [
     image: collection,
     source_code_link: "https://github.com/samiudeen96/To-Do",
     live_link: "https://samiudeen96.github.io/To-Do",
+  },
+];
+
+export const services: Service[] = [
+  {
+    label: "Frontend Development",
+    icon: "",
+    description: "Building responsive, high-performance web interfaces using React.js, Next.js, and modern UI frameworks like Tailwind CSS.",
+  },
+  {
+    label: "Full-Stack Development",
+    icon: "",
+    description: "Creating end-to-end applications with Node.js, Express.js, and MongoDB/MySQL, ensuring scalability and clean architecture.",
+  },
+  {
+    label: "API Development & Integration",
+    icon: "",
+    description: "Designing and integrating REST APIs to connect backend services with seamless frontend experiences.",
+  },
+  {
+    label: "UI/UX Implementation",
+    icon: "",
+    description: "Turning Figma designs into functional, pixel-perfect interfaces with a focus on usability and responsiveness.",
+  },
+  {
+    label: "Performance Optimization",
+    icon: "",
+    description: "Improving load times, SEO, and overall user experience by optimizing code and following best practices.",
+  },
+  {
+    label: "Continuous Learning",
+    icon: "",
+    description: "Exploring the latest tools and frameworks to stay ahead in modern web development trends.",
   },
 ];

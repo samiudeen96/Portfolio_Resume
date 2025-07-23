@@ -18,7 +18,7 @@ const Portfolio = () => {
     if (tab === "All") {
       setContent(projects);
     } else {
-      const filtered = projects.filter((item) => item.category === tab);
+      const filtered = projects.filter((item: any) => item.category === tab);
       setContent(filtered);
     }
   }, [tab]);
@@ -39,12 +39,6 @@ const Portfolio = () => {
           </p>
         </div>
 
-        {/* <div className="mt-10 flex flex-wrap gap-8 pb-10">
-          {projects.map((project, index) => (
-            <ProjectCard key={`project-${index}`} {...project} />
-          ))}
-        </div> */}
-
         <div>
           {/* Tabs */}
           <div className="flex gap-3 text-sm mt-8 border-b-2 border-[#c2a5ff]">
@@ -52,7 +46,7 @@ const Portfolio = () => {
               <div
                 key={index}
                 className={`cursor-pointer py-[6px] px-4 rounded-md border-2 mb-3 border-[#915eff] ${
-                  item.name === tab ? "bg-[#915eff] text-sm text-white " : "bg-white  "
+                  item.name === tab ? "bg-[#915eff] text-sm text-white " : "bg-white hover:bg-[#915eff] hover:text-white"
                 }`}
                 onClick={() => onTabHandler(item)}
               >

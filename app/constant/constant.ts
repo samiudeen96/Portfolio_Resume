@@ -10,6 +10,7 @@ import expTracker from "../../public/project/expTracker.png"
 import hotelGame from "../../public/project/hotelGame.png"
 import portfolio from "../../public/project/portfolio.png"
 import { TimelineItemType } from "./type"
+import Project from "../model/projectModel"
 // import todo from "../../public/project/todo.png"
 
 export const experiences: TimelineItemType[] = [
@@ -69,7 +70,8 @@ export const education: TimelineItemType[] = [
 ];
 
 
-export const projects = [
+
+export const projects: Project[] = [
   {
     name: "Ecommerce",
     description:

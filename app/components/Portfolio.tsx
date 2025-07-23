@@ -3,20 +3,17 @@ import React, { useEffect, useState } from "react";
 import { projects } from "../constant/constant";
 import Title from "./Title";
 import ProjectCard from "./ProjectCard";
-
-interface TabHeaderItem {
-  name: "All" | "Frontend" | "Full Stack";
-}
+import Project from "../model/projectModel"
 
 const Portfolio = () => {
   const [tab, setTab] = useState<"All" | "Frontend" | "Full Stack">("All");
-  const [content, setContent] = useState<any[]>([]);
+  const [content, setContent] = useState<Project[]>([]);
 
-  const tabHeader: TabHeaderItem[] = [
+  const tabHeader = [
     { name: "All" },
     { name: "Frontend" },
     { name: "Full Stack" },
-  ];
+  ] as const;
 
   useEffect(() => {
     if (tab === "All") {
@@ -27,7 +24,7 @@ const Portfolio = () => {
     }
   }, [tab]);
 
-  const onTabHandler = (tabItem: TabHeaderItem) => setTab(tabItem.name);
+  const onTabHandler = (tabItem: (typeof tabHeader)[number]) => setTab(tabItem.name);
 
   return (
     <div className="bg-[#f9f9f9]">
@@ -35,7 +32,7 @@ const Portfolio = () => {
         <Title text1="Projects" text2="Portfolio" />
         <div className="w-full flex">
           <p className="mt-3 text-secondary text-[17px] leading-[30px]">
-            Following projects showcase my skills and experience through
+            Following projects showcases my skills and experience through
             real-world examples of my work. Each project is briefly described
             with links to code repositories and live demos. It reflects my
             ability to solve complex problems, work with different technologies,

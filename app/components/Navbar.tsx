@@ -87,7 +87,7 @@ export default function Navbar() {
               {menu.map((item, index) => (
                 <li
                   key={index}
-                  className={`text-lg py-2 border-b border-gray-300 ${
+                  className={`text-lg py-4 border-b border-gray-300 ${
                     activeSection === item.path
                       ? "text-[#915eff]"
                       : "text-gray-800"

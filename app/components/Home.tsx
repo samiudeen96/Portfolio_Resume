@@ -12,30 +12,30 @@ const Home = () => {
       id="home"
     >
       <div>
-        <div className="flex items-center justify-center gap-5 flex-wrap">
+        <div className="flex items-center justify-center gap-5">
           <div className="min-w-35 min-h-35 bg-gray-400 rounded-full overflow-hidden">
             <Image
               src="/display_pic.jpg"
               alt="Display Picture"
               width={100}
               height={100}
-              className="object-contain w-full h-full"
+              className="object-cover w-full h-full"
             />
           </div>
           <div className="text-center">
-            <h1 className="sm:text-5xl text-4xl font-bold">Samiudeen</h1>
-            <h3 className="sm:text-3xl text-2xl font-semibold mt-3 text-[#915eff]">
+            <h1 className="sm:text-5xl text-3xl font-bold">Samiudeen</h1>
+            <h3 className="sm:text-3xl text-xl font-semibold mt-3 text-[#915eff]">
               Web Developer
             </h3>
           </div>
         </div>
 
-        <p className="mt-10 text-center text-[22px]">
+        <p className="sm:mt-10 mt-6 text-center sm:text-[22px] text-lg">
           I craft seamless user interfaces, interactive experiences, and modern
           web applications.
         </p>
 
-        <div className="flex flex-wrap divide-x divide-gray-400 mt-4 justify-center sm:text-lg ">
+        <div className="flex flex-wrap divide-x divide-gray-400 mt-4 justify-center sm:text-lg text-sm ">
           <div className="sm:px-4 px-2">Frontend Developer</div>
           <div className="sm:px-4 px-2">MERN Stack Developer</div>
           <div className="sm:px-4 px-2">Full Stack Developer</div>

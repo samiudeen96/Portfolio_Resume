@@ -51,7 +51,7 @@ const Portfolio = () => {
             {tabHeader.map((item, index) => (
               <div
                 key={index}
-                className={`cursor-pointer py-2 px-4 rounded-md border-2 mb-3 border-[#915eff] ${
+                className={`cursor-pointer py-[6px] px-4 rounded-md border-2 mb-3 border-[#915eff] ${
                   item.name === tab ? "bg-[#915eff] text-sm text-white " : "bg-white  "
                 }`}
                 onClick={() => onTabHandler(item)}

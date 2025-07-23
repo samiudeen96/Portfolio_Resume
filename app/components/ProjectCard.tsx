@@ -61,7 +61,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             </div>
           </div>
 
-          {/* <p className="mt-2 text-secondary text-[14px]">{description}</p> */}
         </div>
         <div className="relative w-full sm:h-[180px] mt-4">
           <Image

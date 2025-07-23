@@ -42,7 +42,7 @@ const Portfolio = () => {
         <div>
           {/* Tabs */}
           <div className="flex gap-3 text-sm mt-8 border-b-2 border-[#c2a5ff]">
-            {tabHeader.map((item, index) => (
+            {tabHeader.map((item: any, index: number) => (
               <div
                 key={index}
                 className={`cursor-pointer py-[6px] px-4 rounded-md border-2 mb-3 border-[#915eff] ${

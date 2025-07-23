@@ -1,9 +1,30 @@
-import React from "react";
+"use client";
+import React, { useEffect, useState } from "react";
 import { projects } from "../constant/constant";
 import Title from "./Title";
 import ProjectCard from "./ProjectCard";
 
 const Portfolio = () => {
+  const [tab, setTab] = useState("All");
+  const [content, setContent] = useState([]);
+
+  const tabHeader = [
+    { name: "All" },
+    { name: "Frontend" },
+    { name: "Full Stack" },
+  ];
+
+  useEffect(() => {
+    if (tab === "All") {
+      setContent(projects);
+    } else {
+      const filtered = projects.filter((item) => item.category === tab);
+      setContent(filtered);
+    }
+  }, [tab]);
+
+  const onTabHandler = (tabItem: any) => setTab(tabItem.name);
+
   return (
     <div className="bg-[#f9f9f9]">
       <div id="portfolio" className="wrapper scroll-mt-12">
@@ -18,10 +39,34 @@ const Portfolio = () => {
           </p>
         </div>
 
-        <div className="mt-10 flex flex-wrap gap-8 pb-10">
+        {/* <div className="mt-10 flex flex-wrap gap-8 pb-10">
           {projects.map((project, index) => (
             <ProjectCard key={`project-${index}`} {...project} />
           ))}
+        </div> */}
+
+        <div>
+          {/* Tabs */}
+          <div className="flex gap-3 text-sm mt-8 border-b-2 border-[#c2a5ff]">
+            {tabHeader.map((item, index) => (
+              <div
+                key={index}
+                className={`cursor-pointer py-2 px-4 rounded-md border-2 mb-3 border-[#915eff] ${
+                  item.name === tab ? "bg-[#915eff] text-sm text-white " : "bg-white  "
+                }`}
+                onClick={() => onTabHandler(item)}
+              >
+                {item.name}
+              </div>
+            ))}
+          </div>
+
+          {/* Project Cards */}
+          <div className="mt-5 flex flex-wrap gap-8 pb-10">
+            {content.map((project, index) => (
+              <ProjectCard key={`project-${index}`} {...project} />
+            ))}
+          </div>
         </div>
       </div>
     </div>

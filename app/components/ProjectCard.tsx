@@ -29,7 +29,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 }) => {
   return (
     <div>
-      <div className="bg-[#fbf9ff] p-4 rounded-lg sm:w-[290px] w-full shadow">
+      <div className="bg-[#f9f9f9] p-4 rounded-lg sm:w-[290px] w-full shadow">
         <div className="">
           <div className="flex justify-between items-end">
             <h3 className="font-semibold text-[20px]">{name}</h3>

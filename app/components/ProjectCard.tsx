@@ -6,7 +6,6 @@ import live from "../../public/live.png";
 import Image, { StaticImageData } from "next/image";
 
 interface ProjectCardProps {
-  index: number,
   name: string;
   description: string;
   tags:any;
@@ -16,7 +15,6 @@ interface ProjectCardProps {
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
-  index,
   name,
   description,
   tags,

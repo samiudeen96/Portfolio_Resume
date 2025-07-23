@@ -19,7 +19,7 @@ const Portfolio = () => {
 
       <div className="mt-10 flex flex-wrap gap-7 pb-10">
         {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
+          <ProjectCard key={`project-${index}`} {...project} />
         ))}
       </div>
     </div>

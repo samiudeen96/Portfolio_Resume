@@ -193,7 +193,7 @@ export const projects = [
       },
     ],
     category: "Frontend Development",
-    // image: todo,
+    image: collection,
     source_code_link: "https://github.com/samiudeen96/To-Do",
     live_link: "https://samiudeen96.github.io/To-Do",
   },

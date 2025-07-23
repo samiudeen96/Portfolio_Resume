@@ -1,6 +1,7 @@
 import React from "react";
-// import { projects } from "../constant/constant";
+import { projects } from "../constant/constant";
 import Title from "./Title";
+import ProjectCard from "./ProjectCard";
 
 const Portfolio = () => {
   return (
@@ -17,9 +18,9 @@ const Portfolio = () => {
       </div>
 
       <div className="mt-10 flex flex-wrap gap-7 pb-10">
-        {/* {projects.map((project: string, index: number) => (
+        {projects.map((project: any, index: number) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
-        ))} */}
+        ))}
       </div>
     </div>
   );

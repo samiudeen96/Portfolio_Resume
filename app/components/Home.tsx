@@ -51,12 +51,12 @@ const Home = () => {
           <div className="flex items-center bg-gray-100 rounded-md sm:px-4 px-4">
             {/* <Image src="/tel.svg" width={20} height={20} alt="telephone" /> */}
             <IoIosPhonePortrait className="" size={22} />
-            <p>+971 0502126746</p>
+            <p>+971 502126746</p>
           </div>
 
           <div className="flex items-center bg-gray-100 rounded-md sm:px-4 px-4">
             <FaWhatsapp className="text-green-400" size={22} />
-            <p>+971 0502126746</p>
+            <p>+971 502126746</p>
           </div>
         </div>
 

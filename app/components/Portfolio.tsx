@@ -1,5 +1,5 @@
 import React from "react";
-import { projects } from "../constant/constant";
+// import { projects } from "../constant/constant";
 import Title from "./Title";
 
 const Portfolio = () => {

@@ -71,18 +71,18 @@ const Home = () => {
             <a href="https://www.linkedin.com/in/samiudeen/" target="_blank">
               <Image
                 src="/linkedin.svg"
-                width={25}
-                height={25}
+                width={30}
+                height={30}
                 alt="linkedin"
               />
             </a>
 
             <a href="https://github.com/samiudeen96" target="_blank">
-              <Image src="/github.svg" width={25} height={25} alt="github" />
+              <Image src="/github.svg" width={30} height={30} alt="github" />
             </a>
 
             <a href="mailto:samiudeen96amm@gmail.com" target="_blank">
-              <Image src="/gmail.svg" width={25} height={25} alt="gmail" />
+              <Image src="/gmail.svg" width={30} height={30} alt="gmail" />
             </a>
           </div>
         </div>

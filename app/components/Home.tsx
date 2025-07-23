@@ -40,7 +40,7 @@ const Home = () => {
           <div className="sm:px-4 px-2">MERN Stack Developer</div>
           <div className="sm:px-4 px-2">Web Apps & API Development</div>
         </div>
-        <div className="flex justify-center flex-wrap mt-6 gap-2">
+        <div className="flex justify-center flex-wrap mt-6 gap-3">
           <div className="flex items-center bg-[#f9f9f9] rounded-md sm:px-4 px-4">
             {/* <Image src="/pin.svg" width={20} height={20} alt="location" /> */}
             <GrLocationPin className="text-red-500" size={22} />

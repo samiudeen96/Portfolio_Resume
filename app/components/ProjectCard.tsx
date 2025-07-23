@@ -5,10 +5,10 @@ import github from "../../public/github.svg";
 import live from "../../public/live.png";
 import Image, { StaticImageData } from "next/image";
 
-interface Tag {
-  name: string;
-  color: string;
-}
+// interface Tag {
+//   name: string;
+//   color: string;
+// }
 
 interface ProjectCardProps {
   name: string;

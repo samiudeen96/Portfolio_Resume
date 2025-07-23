@@ -6,15 +6,17 @@ import live from "../../public/live.png";
 import Image, { StaticImageData } from "next/image";
 
 interface ProjectCardProps {
+  index: number,
   name: string;
   description: string;
-  tags: [];
+  tags:any;
   image: string | StaticImageData;
   source_code_link: string;
   live_link: string;
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
+  index,
   name,
   description,
   tags,

@@ -1,9 +1,20 @@
-"use client"
+"use client";
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-const Timeline = ({ item }: any) => {
+interface TimelineItemProps {
+  item: {
+    icon: string;
+    name: string;
+    title: string;
+    date: string;
+    url: string;
+    points?: string[];
+  };
+}
+
+const Timeline: React.FC<TimelineItemProps> = ({ item }) => {
   return (
     <motion.li
       className="timeline-item p-4 shadow rounded-md"
@@ -36,7 +47,7 @@ const Timeline = ({ item }: any) => {
 
       {item.points && (
         <ul className="mt-2 list-disc ml-5 space-y-1">
-          {item.points.map((point: string, index: number) => (
+          {item.points.map((point, index) => (
             <li
               key={`experience-point-${index}`}
               className="text-[14px pl-1 tracking-wider]"

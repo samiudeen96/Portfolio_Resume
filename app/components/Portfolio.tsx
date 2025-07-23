@@ -4,11 +4,15 @@ import { projects } from "../constant/constant";
 import Title from "./Title";
 import ProjectCard from "./ProjectCard";
 
-const Portfolio = () => {
-  const [tab, setTab] = useState("All");
-  const [content, setContent] = useState([]);
+interface TabHeaderItem {
+  name: "All" | "Frontend" | "Full Stack";
+}
 
-  const tabHeader = [
+const Portfolio = () => {
+  const [tab, setTab] = useState<"All" | "Frontend" | "Full Stack">("All");
+  const [content, setContent] = useState<any[]>([]);
+
+  const tabHeader: TabHeaderItem[] = [
     { name: "All" },
     { name: "Frontend" },
     { name: "Full Stack" },
@@ -18,12 +22,12 @@ const Portfolio = () => {
     if (tab === "All") {
       setContent(projects);
     } else {
-      const filtered = projects.filter((item: any) => item.category === tab);
+      const filtered = projects.filter((item) => item.category === tab);
       setContent(filtered);
     }
   }, [tab]);
 
-  const onTabHandler = (tabItem: any) => setTab(tabItem.name);
+  const onTabHandler = (tabItem: TabHeaderItem) => setTab(tabItem.name);
 
   return (
     <div className="bg-[#f9f9f9]">
@@ -31,7 +35,7 @@ const Portfolio = () => {
         <Title text1="Projects" text2="Portfolio" />
         <div className="w-full flex">
           <p className="mt-3 text-secondary text-[17px] leading-[30px]">
-            Following projects showcases my skills and experience through
+            Following projects showcase my skills and experience through
             real-world examples of my work. Each project is briefly described
             with links to code repositories and live demos. It reflects my
             ability to solve complex problems, work with different technologies,
@@ -42,11 +46,13 @@ const Portfolio = () => {
         <div>
           {/* Tabs */}
           <div className="flex gap-3 text-sm mt-8 border-b-2 border-[#c2a5ff]">
-            {tabHeader.map((item: any, index: number) => (
+            {tabHeader.map((item, index) => (
               <div
                 key={index}
                 className={`cursor-pointer py-[6px] px-4 rounded-md border-2 mb-3 border-[#915eff] ${
-                  item.name === tab ? "bg-[#915eff] text-sm text-white " : "bg-white hover:bg-[#915eff] hover:text-white"
+                  item.name === tab
+                    ? "bg-[#915eff] text-sm text-white"
+                    : "bg-white hover:bg-[#915eff] hover:text-white"
                 }`}
                 onClick={() => onTabHandler(item)}
               >

@@ -26,7 +26,7 @@ const About = () => {
         <SubTitle text="What I’m Doing" />
 
         <div className="flex gap-6 flex-wrap">
-          {services.map((service: any, index: number)=>(
+          {services.map((service, index: number)=>(
             <ServiceCard key={index} {...service} />
           ))}
         </div>

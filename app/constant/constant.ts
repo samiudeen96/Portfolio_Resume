@@ -9,12 +9,11 @@ import collection from "../../public/project/collection.png"
 import expTracker from "../../public/project/expTracker.png"
 import hotelGame from "../../public/project/hotelGame.png"
 import portfolio from "../../public/project/portfolio.png"
+import { TimelineItemType } from "./type"
 // import todo from "../../public/project/todo.png"
 
-export const experiences = [
-  
-  
-    {
+export const experiences: TimelineItemType[] = [
+  {
     id: 1,
     title: "Front-End Developer",
     name: "ILIFE Technologies",
@@ -48,7 +47,7 @@ export const experiences = [
   },
 ];
 
-export const education = [
+export const education: TimelineItemType[] = [
   {
     id: 1,
     title: "Master of Computer Application (MCA)",

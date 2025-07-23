@@ -1,20 +1,11 @@
 "use client";
+
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { TimelineItemType } from "../constant/type";
 
-interface TimelineItemProps {
-  item: {
-    icon: string;
-    name: string;
-    title: string;
-    date: string;
-    url: string;
-    points?: string[];
-  };
-}
-
-const Timeline: React.FC<TimelineItemProps> = ({ item }) => {
+const Timeline = ({ item }: { item: TimelineItemType }) => {
   return (
     <motion.li
       className="timeline-item p-4 shadow rounded-md"
@@ -40,6 +31,7 @@ const Timeline: React.FC<TimelineItemProps> = ({ item }) => {
           className="text-blue-500 hover:underline cursor-pointer"
           href={item.url}
           target="_blank"
+          rel="noopener noreferrer"
         >
           Learn more
         </a>
@@ -48,10 +40,7 @@ const Timeline: React.FC<TimelineItemProps> = ({ item }) => {
       {item.points && (
         <ul className="mt-2 list-disc ml-5 space-y-1">
           {item.points.map((point, index) => (
-            <li
-              key={`experience-point-${index}`}
-              className="text-[14px pl-1 tracking-wider]"
-            >
+            <li key={`experience-point-${index}`} className="text-[14px] pl-1 tracking-wider">
               {point}
             </li>
           ))}

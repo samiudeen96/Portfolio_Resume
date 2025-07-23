@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${poppins.className} antialiased leading-8 overflow-x-hidden`}>
+      <body className={`${poppins.className} antialiased leading-6 overflow-x-hidden`}>
         <Navbar />
         <main className="min-h-screen">{children}</main>
         <Footer />

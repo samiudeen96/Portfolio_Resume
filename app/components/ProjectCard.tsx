@@ -13,7 +13,7 @@ interface Tag {
 interface ProjectCardProps {
   name: string;
   // description: string;
-  tags: Tag[];
+  // tags: Tag[];
   image: string | StaticImageData;
   source_code_link: string;
   live_link: string;
@@ -22,7 +22,7 @@ interface ProjectCardProps {
 const ProjectCard: React.FC<ProjectCardProps> = ({
   name,
   // description,
-  tags,
+  // tags,
   image,
   source_code_link,
   live_link,

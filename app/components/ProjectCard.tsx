@@ -29,7 +29,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 }) => {
   return (
     <div>
-      <div className="bg-[#fbf9ff] p-5 rounded-2xl sm:w-[360px] w-full shadow">
+      <div className="bg-[#fbf9ff] p-4 rounded-lg sm:w-[290px] w-full shadow">
         <div className="">
           <div className="flex justify-between items-end">
             <h3 className="font-semibold text-[20px]">{name}</h3>
@@ -63,11 +63,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 
           {/* <p className="mt-2 text-secondary text-[14px]">{description}</p> */}
         </div>
-        <div className="relative w-full h-[230px] mt-4">
+        <div className="relative w-full h-[160px] mt-4">
           <Image
             src={image}
             alt={name}
-            className="w-full h-full object-cover rounded-2xl"
+            className="w-full h-full object-cover rounded-lg"
           />
         </div>
 

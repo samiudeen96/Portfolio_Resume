@@ -60,8 +60,8 @@ export default function Navbar() {
                   href={item.path}
                   className={` border-b-2 pb-1 transition ${
                     activeSection === item.path
-                      ? "text-[#915eff] border-[#915eff]"
-                      : "border-transparent hover:border-[#915eff] hover:text-[#915eff] text-gray-700"
+                      ? "text-primary border-primary"
+                      : "border-transparent hover:border-primary hover:text-primary text-gray-700"
                   }`}
                 >
                   {item.label}
@@ -89,7 +89,7 @@ export default function Navbar() {
                   key={index}
                   className={`text-lg py-4 border-b border-gray-300 ${
                     activeSection === item.path
-                      ? "text-[#915eff]"
+                      ? "text-primary"
                       : "text-gray-800"
                   }`}
                 >
@@ -98,7 +98,7 @@ export default function Navbar() {
                     onClick={() => setIsOpen(false)}
                     className={`block w-full ${
                       activeSection === item.path
-                        ? "text-[#915eff]"
+                        ? "text-primary"
                         : "text-gray-800"
                     }`}
                   >

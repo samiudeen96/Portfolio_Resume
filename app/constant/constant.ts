@@ -37,7 +37,7 @@ import {
   node,
   express,
   mongodb,
-  // mysql,
+  mysql,
 
   git,
   github,
@@ -322,7 +322,7 @@ export const technologies: TechStack[] = [
         label: "MongoDb",
       },
       {
-        icon: mongodb,
+        icon: mysql,
         label: "MySQL",
       },
     ],

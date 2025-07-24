@@ -8,7 +8,7 @@ import tailwind from "./tech/Tailwind CSS.svg";
 
 import node from "./tech/Node.js.svg"
 import express from "./tech/Express.svg"
-// import mysql from "./tech/MySQL.svg";
+import mysql from "./tech/MySQL.svg";
 import mongodb from "./tech/MongoDB.svg";
 
 import git from "./tech/Git.svg"
@@ -30,7 +30,7 @@ export {
   node,
   express,
   mongodb,
-  // mysql,
+  mysql,
 
   git,
   github,

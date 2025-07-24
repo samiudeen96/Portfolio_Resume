@@ -29,22 +29,23 @@ import {
   react,
   angular,
   next,
+  redux,
   tailwind,
   bootstrap,
   javascript,
   typescript,
+  responsive,
 
   node,
   express,
   mongodb,
   mysql,
-
   git,
   github,
   vercel,
   restapi,
   postman,
-  vscode
+  vscode,
 } from "../../public/assets";
 
 export const experiences: TimelineItemType[] = [
@@ -289,6 +290,10 @@ export const technologies: TechStack[] = [
         label: "Angular",
       },
       {
+        icon: redux,
+        label: "Redux",
+      },
+      {
         icon: tailwind,
         label: "Tailwind CSS",
       },
@@ -303,6 +308,10 @@ export const technologies: TechStack[] = [
       {
         icon: typescript,
         label: "Typescript",
+      },
+            {
+        icon: responsive,
+        label: "Responsive Design",
       },
     ],
   },
@@ -342,12 +351,12 @@ export const technologies: TechStack[] = [
         icon: github,
         label: "Github",
       },
-            {
+      {
         icon: vercel,
         label: "Vercel",
       },
       {
-        icon: mongodb,
+        icon: restapi,
         label: "REST APIs",
       },
       {

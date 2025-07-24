@@ -59,13 +59,17 @@ const Home = () => {
           </div>
         </div>
         <div className=" mt-10 flex gap-10 items-center justify-center">
-          <button className="relative p-0 mx-2 border-none bg-transparent cursor-pointer outline-offset-1 transition duration-250 hover:brightness-110">
+          <a
+            href="/Samiudeen_Fullstack_Developer.pdf"
+            download
+            className="relative p-0 mx-2 border-none bg-transparent cursor-pointer outline-offset-1 transition duration-250 hover:brightness-110"
+          >
             <span className="absolute top-0 left-0 w-full h-full rounded-[12px] bg-black/25 shadow-transform transition-all duration-[600ms] ease-[cubic-bezier(0.3,0.7,0.4,1)] translate-y-[2px] hover:translate-y-[4px] active:translate-y-[1px]"></span>
             <span className="absolute top-0 left-0 w-full h-full rounded-[12px] bg-gradient-to-l from-[#7030e0] via-primary to-[#7030e0]"></span>
             <span className="relative flex items-center gap-2 rounded-[12px] px-[27px] py-[8px] text-white text-sm bg-primary translate-y-[-4px] transition-all duration-[600ms] ease-[cubic-bezier(0.3,0.7,0.4,1)] hover:translate-y-[-6px] hover:duration-[250ms] hover:ease-[cubic-bezier(0.3,0.7,0.4,1.5)] active:translate-y-[-2px] active:duration-[34ms]">
               My Resume <TfiDownload />
             </span>
-          </button>
+          </a>
 
           <div className="flex gap-5">
             <a href="https://www.linkedin.com/in/samiudeen/" target="_blank">
@@ -81,7 +85,7 @@ const Home = () => {
               <Image src="/github.svg" width={30} height={30} alt="github" />
             </a>
 
-            <a href="mailto:samiudeen96amm@gmail.com" target="_blank">
+            <a href="mailto:samiudeen96amm@gmail.com">
               <Image src="/gmail.svg" width={30} height={30} alt="gmail" />
             </a>
           </div>

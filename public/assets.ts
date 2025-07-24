@@ -8,7 +8,7 @@ import tailwind from "./tech/Tailwind CSS.svg";
 
 import node from "./tech/Node.js.svg"
 import express from "./tech/Express.svg"
-import mysql from "./tech/MySQL.svg";
+import mysql from "./tech/Mysql.svg";
 import mongodb from "./tech/MongoDB.svg";
 
 import git from "./tech/Git.svg"
@@ -16,7 +16,7 @@ import github from "./tech/GitHub.svg"
 import vercel from "./tech/Vercel.svg";
 import restapi from "./tech/GitHub.svg";
 import postman from "./tech/Postman.svg";
-import vscode from "./tech/VS Code.svg";
+import vscode from "./tech/Vscode.svg";
 
 export {
   react,

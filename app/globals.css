@@ -13,6 +13,7 @@
 
   --color-primary: #915eff;
   --color-background: #f3effc;
+  --color-paragraph: #4b5563;
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -28,6 +29,16 @@
 
 .wrapper {
   @apply bg-background py-4;
+}
+
+*{
+  p{
+    @apply text-paragraph
+  }
+
+  li{
+    @apply text-paragraph
+  }
 }
 
 /**

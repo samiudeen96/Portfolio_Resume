@@ -1,10 +1,10 @@
 'use client';
 
 import React from 'react'
-import Title from './Title'
+import Title from './common/Title'
 import Image from "next/image";
 
-import TimelineItem from "./Timeline";
+import TimelineItem from "../components/common/Timeline";
 import { experiences, education } from "../constant/constant";
 import { motion } from "framer-motion";
 

@@ -1,6 +1,6 @@
 import Image, { StaticImageData } from "next/image";
 import React from "react";
-import Service from "../model/serviceModel";
+import Service from "../../model/serviceModel";
 
 // interface
 

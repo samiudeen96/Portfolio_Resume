@@ -1,7 +1,7 @@
 import React from "react";
-import Title from "./Title";
-import SubTitle from "./SubTitle";
-import ServiceCard from "./ServiceCard";
+import Title from "./common/Title";
+import SubTitle from "./common/SubTitle";
+import ServiceCard from "./common/ServiceCard";
 import { services } from "../constant/constant";
 
 const About = () => {
@@ -32,7 +32,10 @@ const About = () => {
         </div>
 
         <SubTitle text="Tech Stack" />
-
+        
+        <div className="flex gap-6 flex-wrap">
+          
+        </div>
           
 
 

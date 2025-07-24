@@ -1,10 +1,10 @@
 "use client";
 
 import React from "react";
-import github from "../../public/github.svg";
-import live from "../../public/live.png";
+import github from "../../../public/github.svg";
+import live from "../../../public/live.png";
 import Image from "next/image";
-import Project from "../model/projectModel";
+import Project from "../../model/projectModel";
 
 // interface Tag {
 //   name: string;

@@ -1,8 +1,8 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { projects } from "../constant/constant";
-import Title from "./Title";
-import ProjectCard from "./ProjectCard";
+import Title from "./common/Title";
+import ProjectCard from "../components/common/ProjectCard";
 import Project from "../model/projectModel"
 
 const Portfolio = () => {

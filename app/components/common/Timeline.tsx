@@ -3,7 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { TimelineItemType } from "../constant/type";
+import { TimelineItemType } from "../../model/timelineModel";
 
 const Timeline = ({ item }: { item: TimelineItemType }) => {
   return (
@@ -37,7 +37,7 @@ const Timeline = ({ item }: { item: TimelineItemType }) => {
         </a>
       </div>
 
-      {item.points && (
+      {/* {item.points && (
         <ul className="mt-2 list-disc ml-5 space-y-1">
           {item.points.map((point, index) => (
             <li key={`experience-point-${index}`} className="text-[14px] pl-1 tracking-wider">
@@ -45,7 +45,7 @@ const Timeline = ({ item }: { item: TimelineItemType }) => {
             </li>
           ))}
         </ul>
-      )}
+      )} */}
     </motion.li>
   );
 };

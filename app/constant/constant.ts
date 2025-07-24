@@ -9,7 +9,7 @@ import collection from "../../public/project/collection.png";
 import expTracker from "../../public/project/expTracker.png";
 import hotelGame from "../../public/project/hotelGame.png";
 import portfolio from "../../public/project/portfolio.png";
-import { TimelineItemType } from "./type";
+import { TimelineItemType } from "../model/timelineModel";
 import Project from "../model/projectModel";
 // import todo from "../../public/project/todo.png"
 

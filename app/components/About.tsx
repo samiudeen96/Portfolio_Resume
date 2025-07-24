@@ -31,6 +31,12 @@ const About = () => {
           ))}
         </div>
 
+        <SubTitle text="Tech Stack" />
+
+          
+
+
+
       </div>
     </div>
   );

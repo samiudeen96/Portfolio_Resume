@@ -27,8 +27,8 @@ const Portfolio = () => {
   const onTabHandler = (tabItem: (typeof tabHeader)[number]) => setTab(tabItem.name);
 
   return (
-    <div className="bg-[#f9f9f9]">
-      <div id="portfolio" className="wrapper scroll-mt-12">
+    <div className="wrapper">
+      <div id="portfolio" className="container scroll-mt-12">
         <Title text1="Projects" text2="Portfolio" />
         <div className="w-full flex">
           <p className="mt-3 text-secondary text-[17px] leading-[30px]">

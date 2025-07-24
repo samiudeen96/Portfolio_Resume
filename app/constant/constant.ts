@@ -13,6 +13,16 @@ import { TimelineItemType } from "./type";
 import Project from "../model/projectModel";
 // import todo from "../../public/project/todo.png"
 
+// service
+import api from "../../public/service/api.svg"
+import ui from "../../public/service/ui.svg"
+import performance from "../../public/service/performance.svg"
+import map from "../../public/service/map.svg"
+import cloud from "../../public/service/cloud.svg"
+import host from "../../public/service/host.svg"
+import frontend from "../../public/service/frontend.svg"
+import backend from "../../public/service/backend.svg"
+
 export const experiences: TimelineItemType[] = [
   {
     id: 1,
@@ -202,32 +212,32 @@ export const projects: Project[] = [
 export const services: Service[] = [
   {
     label: "Frontend Development",
-    icon: "",
+    icon: frontend,
     description: "Building responsive, high-performance web interfaces using React.js, Next.js, and modern UI frameworks like Tailwind CSS.",
   },
   {
     label: "Full-Stack Development",
-    icon: "",
+    icon: backend,
     description: "Creating end-to-end applications with Node.js, Express.js, and MongoDB/MySQL, ensuring scalability and clean architecture.",
   },
   {
     label: "API Development & Integration",
-    icon: "",
+    icon: api,
     description: "Designing and integrating REST APIs to connect backend services with seamless frontend experiences.",
   },
   {
     label: "UI/UX Implementation",
-    icon: "",
+    icon: ui,
     description: "Turning Figma designs into functional, pixel-perfect interfaces with a focus on usability and responsiveness.",
   },
   {
     label: "Performance Optimization",
-    icon: "",
+    icon: performance,
     description: "Improving load times, SEO, and overall user experience by optimizing code and following best practices.",
   },
   {
     label: "Continuous Learning",
-    icon: "",
+    icon: map,
     description: "Exploring the latest tools and frameworks to stay ahead in modern web development trends.",
   },
 ];

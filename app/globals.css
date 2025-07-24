@@ -5,27 +5,30 @@
   --foreground: #171717;
 }
 
-@theme inline {
-  --color-background: var(--background);
+@theme {
+  /* --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-mono: var(--font-geist-mono); */
+
+  --color-primary: #915eff;
+  --color-background: #f3effc;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+} */
+
+.container {
+  @apply px-4 py-8 mx-auto max-w-7xl min-h-screen;
 }
 
-@layer base {
-
-  .wrapper {
-    @apply px-4 py-8 mx-auto max-w-7xl min-h-screen;
-  }
+.wrapper {
+  @apply bg-background;
 }
-
 
 /**
  * education and experience 

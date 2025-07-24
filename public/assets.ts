@@ -8,8 +8,8 @@ import tailwind from "./tech/Tailwind CSS.svg";
 
 import node from "./tech/Node.js.svg"
 import express from "./tech/Express.svg"
-import mysql from "./tech/Mysql.svg";
 import mongodb from "./tech/MongoDB.svg";
+import mysql from "./tech/sql.svg"
 
 import git from "./tech/Git.svg"
 import github from "./tech/GitHub.svg"

@@ -6,19 +6,6 @@ import live from "../../../public/live.png";
 import Image from "next/image";
 import Project from "../../model/projectModel";
 
-// interface Tag {
-//   name: string;
-//   color: string;
-// }
-
-// interface ProjectCardProps {
-//   name: string;
-//   // description: string;
-//   // tags: Tag[];
-//   image: string | StaticImageData;
-//   source_code_link: string;
-//   live_link: string;
-// }
 
 const ProjectCard: React.FC<Project> = ({
   name,

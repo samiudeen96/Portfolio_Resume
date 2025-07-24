@@ -31,7 +31,7 @@ const Portfolio = () => {
       <div id="portfolio" className="container">
         <Title text1="Projects" text2="Portfolio" />
         <div className="w-full flex">
-          <p className="mt-3 text-secondary text-[17px] leading-[30px]">
+          <p className=" text-secondary text-[17px] leading-[30px]">
             Following projects showcases my skills and experience through
             real-world examples of my work. Each project is briefly described
             with links to code repositories and live demos. It reflects my

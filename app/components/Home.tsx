@@ -41,19 +41,19 @@ const Home = () => {
           <div className="sm:px-4 px-2">Web Apps & API Development</div>
         </div>
         <div className="flex justify-center flex-wrap mt-6 gap-3">
-          <div className="flex items-center bg-[#f9f9f9] rounded-md sm:px-4 px-4">
+          <div className="flex items-center bg-[#f9f9f9] rounded-md sm:px-4 px-4 py-1">
             {/* <Image src="/pin.svg" width={20} height={20} alt="location" /> */}
             <GrLocationPin className="text-red-500" size={22} />
             <p>Dubai, UAE</p>
           </div>
 
-          <div className="flex items-center bg-[#f9f9f9] rounded-md sm:px-4 px-4">
+          <div className="flex items-center bg-[#f9f9f9] rounded-md sm:px-4 px-4 py-1">
             {/* <Image src="/tel.svg" width={20} height={20} alt="telephone" /> */}
             <IoIosPhonePortrait className="" size={22} />
             <p>+971 502126746</p>
           </div>
 
-          <div className="flex items-center bg-[#f9f9f9] rounded-md sm:px-4 px-4">
+          <div className="flex items-center bg-[#f9f9f9] rounded-md sm:px-4 px-4 py-1">
             <FaWhatsapp className="text-green-400" size={22} />
             <p>+971 502126746</p>
           </div>

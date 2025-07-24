@@ -14,14 +14,38 @@ import Project from "../model/projectModel";
 // import todo from "../../public/project/todo.png"
 
 // service
-import api from "../../public/service/api.svg"
-import ui from "../../public/service/ui.svg"
-import performance from "../../public/service/performance.svg"
-import map from "../../public/service/map.svg"
-import cloud from "../../public/service/cloud.svg"
-import host from "../../public/service/host.svg"
-import frontend from "../../public/service/frontend.svg"
-import backend from "../../public/service/backend.svg"
+import api from "../../public/service/api.svg";
+import ui from "../../public/service/ui.svg";
+import performance from "../../public/service/performance.svg";
+import map from "../../public/service/map.svg";
+import cloud from "../../public/service/cloud.svg";
+import host from "../../public/service/host.svg";
+import frontend from "../../public/service/frontend.svg";
+import backend from "../../public/service/backend.svg";
+import TechStack from "../model/techStackModel";
+
+// import react  from "../../public/tech/reactjs.png";
+import {
+  react,
+  angular,
+  next,
+  tailwind,
+  bootstrap,
+  javascript,
+  typescript,
+
+  node,
+  express,
+  mongodb,
+  mysql,
+
+  git,
+  github,
+  vercel,
+  restapi,
+  postman,
+  vscode
+} from "../../public/assets";
 
 export const experiences: TimelineItemType[] = [
   {
@@ -213,31 +237,123 @@ export const services: Service[] = [
   {
     label: "Frontend Development",
     icon: frontend,
-    description: "Building responsive, high-performance web interfaces using React.js, Next.js, and modern UI frameworks like Tailwind CSS.",
+    description:
+      "Building responsive, high-performance web interfaces using React.js, Next.js, and modern UI frameworks like Tailwind CSS.",
   },
   {
     label: "Full-Stack Development",
     icon: backend,
-    description: "Creating end-to-end applications with Node.js, Express.js, and MongoDB/MySQL, ensuring scalability and clean architecture.",
+    description:
+      "Creating end-to-end applications with Node.js, Express.js, and MongoDB/MySQL, ensuring scalability and clean architecture.",
   },
   {
     label: "API Development & Integration",
     icon: api,
-    description: "Designing and integrating REST APIs to connect backend services with seamless frontend experiences.",
+    description:
+      "Designing and integrating REST APIs to connect backend services with seamless frontend experiences.",
   },
   {
     label: "UI/UX Implementation",
     icon: ui,
-    description: "Turning Figma designs into functional, pixel-perfect interfaces with a focus on usability and responsiveness.",
+    description:
+      "Turning Figma designs into functional, pixel-perfect interfaces with a focus on usability and responsiveness.",
   },
   {
     label: "Performance Optimization",
     icon: performance,
-    description: "Improving load times, SEO, and overall user experience by optimizing code and following best practices.",
+    description:
+      "Improving load times, SEO, and overall user experience by optimizing code and following best practices.",
   },
   {
     label: "Continuous Learning",
     icon: map,
-    description: "Exploring the latest tools and frameworks to stay ahead in modern web development trends.",
+    description:
+      "Exploring the latest tools and frameworks to stay ahead in modern web development trends.",
+  },
+];
+
+export const technologies: TechStack[] = [
+  {
+    title: "Frontend",
+    tech: [
+      {
+        icon: react,
+        label: "React.js",
+      },
+      {
+        icon: next,
+        label: "Next.js",
+      },
+      {
+        icon: angular,
+        label: "Angular",
+      },
+      {
+        icon: tailwind,
+        label: "Tailwind CSS",
+      },
+      {
+        icon: bootstrap,
+        label: "Bootstrap",
+      },
+      {
+        icon: javascript,
+        label: "Javascript",
+      },
+      {
+        icon: typescript,
+        label: "Typescript",
+      },
+    ],
+  },
+  {
+    title: "Backend & Database",
+    tech: [
+      {
+        icon: node,
+        label: "Node.js",
+      },
+      {
+        icon: express,
+        label: "Express.js",
+      },
+      {
+        icon: mongodb,
+        label: "MongoDb",
+      },
+      {
+        icon: mysql,
+        label: "MySql",
+      },
+    ],
+  },
+  {
+    title: "Tools",
+    tech: [
+      {
+        icon: vscode,
+        label: "VS Code",
+      },
+      {
+        icon: git,
+        label: "Git",
+      },
+      {
+        icon: github,
+        label: "Github",
+      },
+            {
+        icon: vercel,
+        label: "Vercel",
+      },
+      {
+        icon: mongodb,
+        label: "REST APIs",
+      },
+      {
+        icon: postman,
+        label: "Postman",
+      },
+    ],
   },
 ];

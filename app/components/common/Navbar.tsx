@@ -10,7 +10,7 @@ const menu = [
   { label: "About", path: "#about" },
   { label: "Resume", path: "#resume" },
   { label: "Portfolio", path: "#portfolio" },
-  { label: "Contact", path: "#contact" },
+  // { label: "Contact", path: "#contact" },
 ];
 
 export default function Navbar() {

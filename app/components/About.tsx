@@ -2,7 +2,8 @@ import React from "react";
 import Title from "./common/Title";
 import SubTitle from "./common/SubTitle";
 import ServiceCard from "./common/ServiceCard";
-import { services } from "../constant/constant";
+import { services, technologies } from "../constant/constant";
+import TechStackCard from "./common/TechStackCard";
 
 const About = () => {
   return (
@@ -26,20 +27,18 @@ const About = () => {
         <SubTitle text="What I’m Doing" />
 
         <div className="flex gap-6 flex-wrap">
-          {services.map((service, index: number)=>(
+          {services.map((service, index: number) => (
             <ServiceCard key={index} {...service} />
           ))}
         </div>
 
         <SubTitle text="Tech Stack" />
-        
-        <div className="flex gap-6 flex-wrap">
-          
+
+        <div className="grid sm:grid-cols-2 grid-cols-1 gap-5">
+          {technologies.map((tech, index: number) => (
+            <TechStackCard key={index} {...tech} />
+          ))}
         </div>
-          
-
-
-
       </div>
     </div>
   );

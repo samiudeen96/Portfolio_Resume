@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 
 const Resume = () => {
   return (
-    <div id='resume'className='container scroll-mt-12'>
+    <div id='resume'className='container'>
       <Title text1="Experience & Education" text2="Resume" />
 
         <div className="relative text_gray">

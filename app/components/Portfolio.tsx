@@ -28,7 +28,7 @@ const Portfolio = () => {
 
   return (
     <div className="wrapper">
-      <div id="portfolio" className="container scroll-mt-12">
+      <div id="portfolio" className="container">
         <Title text1="Projects" text2="Portfolio" />
         <div className="w-full flex">
           <p className="mt-3 text-secondary text-[17px] leading-[30px]">

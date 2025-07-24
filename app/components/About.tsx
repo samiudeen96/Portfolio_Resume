@@ -7,7 +7,7 @@ import { services } from "../constant/constant";
 const About = () => {
   return (
     <div className="wrapper">
-      <div id="about" className="container scroll-mt-12">
+      <div id="about" className="container">
         <Title text1="Introduction" text2="About Me" />
 
         <p>

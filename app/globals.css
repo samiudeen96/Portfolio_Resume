@@ -23,11 +23,11 @@
 } */
 
 .container {
-  @apply px-4 py-8 mx-auto max-w-7xl min-h-screen;
+  @apply px-4 py-12 mx-auto max-w-7xl min-h-screen scroll-mt-10;
 }
 
 .wrapper {
-  @apply bg-background;
+  @apply bg-background py-4;
 }
 
 /**

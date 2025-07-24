@@ -8,7 +8,7 @@ import { FaWhatsapp } from "react-icons/fa";
 const Home = () => {
   return (
     <div
-      className="container scroll-mt-12 flex items-center justify-center h-screen"
+      className="container flex items-center justify-center h-screen"
       id="home"
     >
       <div>

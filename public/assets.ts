@@ -3,8 +3,6 @@ import angular from "./tech/Angular.svg";
 import next from "./tech/Next.js.svg";
 import javascript from "./tech/JavaScript.svg";
 import typescript from "./tech/TypeScript.svg";
-import figma from "./tech/figma.svg";
-import nodejs from "./tech/nodejs.svg";
 import bootstrap from "./tech/Bootstrap.svg";
 import tailwind from "./tech/Tailwind CSS.svg";
 

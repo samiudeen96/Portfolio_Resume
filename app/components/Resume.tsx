@@ -28,7 +28,7 @@ const Resume = () => {
             <div className="w-[35px] h-[35px] rounded-md flex justify-center items-center">
               <Image src="/exp.svg" width={40} height={40} alt="Experience Icon" />
             </div>
-            <p className="text-lg font-semibold">Experience</p>
+            <h3 className="text-xl font-semibold">Experience</h3>
           </div>
           <ol className="timeline-list">
             {experiences.map((item, index) => (
@@ -51,7 +51,7 @@ const Resume = () => {
             <div className="w-[35px] h-[35px] rounded-md flex justify-center items-center">
               <Image src="/degree1.svg" width={40} height={40} alt="Education Icon" />
             </div>
-            <p className="text-lg font-semibold">Education</p>
+            <h3 className="text-xl font-semibold">Education</h3>
           </div>
           <ol className="timeline-list">
             {education.map((item, index) => (

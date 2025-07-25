@@ -36,7 +36,6 @@ import {
   javascript,
   typescript,
   responsive,
-
   node,
   express,
   mongodb,
@@ -302,11 +301,11 @@ export const technologies: TechStack[] = [
         icon: bootstrap,
         label: "Bootstrap",
       },
-            {
+      {
         icon: shadcn,
         label: "Shadcn",
       },
-      
+
       {
         icon: javascript,
         label: "Javascript",
@@ -315,7 +314,7 @@ export const technologies: TechStack[] = [
         icon: typescript,
         label: "Typescript",
       },
-            {
+      {
         icon: responsive,
         label: "Responsive Design",
       },

@@ -72,13 +72,13 @@ const Home = () => {
             </span>
           </a>
 
-          <Link href="#about"
+          <Link href="#contact"
             className="relative p-0 mx-2 border-none bg-transparent cursor-pointer outline-offset-1 transition duration-250 hover:brightness-110"
           >
             <span className="absolute top-0 left-0 w-full h-full rounded-[12px] bg-black/25 shadow-transform transition-all duration-[600ms] ease-[cubic-bezier(0.3,0.7,0.4,1)] translate-y-[2px] hover:translate-y-[4px] active:translate-y-[1px]"></span>
             <span className="absolute top-0 left-0 w-full h-full rounded-[12px] bg-gradient-to-l from-[#7030e0] via-primary to-[#7030e0]"></span>
             <span className="relative flex items-center gap-2 rounded-[12px] px-[30px] py-[10px] text-primary text-sm font-semibold border-2 border-primary bg-background translate-y-[-4px] transition-all duration-[600ms] ease-[cubic-bezier(0.3,0.7,0.4,1)] hover:translate-y-[-6px] hover:duration-[250ms] hover:ease-[cubic-bezier(0.3,0.7,0.4,1.5)] active:translate-y-[-2px] active:duration-[34ms]">
-              About Me
+              Contact
             </span>
           </Link>
 

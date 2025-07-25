@@ -21,6 +21,14 @@ import restapi from "./tech/api.png";
 import postman from "./tech/Postman.svg";
 import vscode from "./tech/Vscode.svg";
 
+import gmail from "./social/gmail.svg"
+import whatsapp from "./social/whatsapp.svg"
+import linkedin from "./social/linkedin.svg"
+import phone from "./social/phone.svg"
+import newgit from "./social/github.svg"
+
+import location from "./location.svg"
+
 export {
   react,
   angular,
@@ -43,7 +51,14 @@ export {
   vercel,
   restapi,
   postman,
-  vscode
+  vscode,
+
+  gmail,
+  whatsapp,
+  linkedin,
+  phone,
+  newgit,
+  location
 
 
 };

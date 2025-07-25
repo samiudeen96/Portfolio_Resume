@@ -19,8 +19,8 @@ const Timeline = ({ item }: { item: TimelineItemType }) => {
       </div>
 
       <div>
-        <p className="text_gray font-semibold">{item.name}</p>
-        <p className="text-md timeline-item-title text-[#915eff] font-semibold">
+        <h4 className="text-lg font-semibold text-[#915eff]">{item.name}</h4>
+        <p className="text-md timeline-item-title  font-semibold mt-2">
           {item.title}
         </p>
       </div>

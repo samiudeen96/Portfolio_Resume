@@ -1,7 +1,14 @@
 import Image, { StaticImageData } from "next/image";
 import React from "react";
 
-import { gmail, whatsapp, linkedin, phone, newgit, location } from "../../public/assets";
+import {
+  gmail,
+  whatsapp,
+  linkedin,
+  phone,
+  newgit,
+  location,
+} from "../../public/assets";
 
 const Contact = () => {
   interface ContactProps {
@@ -91,7 +98,7 @@ const Contact = () => {
               <a
                 key={index}
                 href={item.link}
-                className="border-2 border-[#9ca3af] p-8 text-center rounded-md space-y-2 flex justify-center items-center flex-col w-full sm:w-auto"
+                className="border-2 hover:bg-gray-700 border-[#9ca3af] p-8 text-center rounded-md space-y-2 flex justify-center items-center flex-col w-full sm:w-auto"
               >
                 <Image
                   src={item.icon}
@@ -107,13 +114,19 @@ const Contact = () => {
               </a>
             )
           )}
-        </div> 
-        <div className="flex items-center justify-center gap-1 mt-16">
+        </div>
+        {/* <div className="flex items-center justify-center gap-1 mt-16">
           <Image src={location} width={20} height={20} alt="location" />
           <p className="custom_paragraph ">
           Based in Dubai, UAE • Available for remote and on-site projects
         </p>
+        </div> */}
+        <div className="flex items-end justify-center rounded-md mt-16">
+          {/* <GrLocationPin className="text-red-500" size={22} /> */}
+          <Image src={location} width={30} height={30} alt="location" />
+          <p>Based in Dubai, United Arab Emirates</p>
         </div>
+        <p className="text-center mt-2">Available for remote and on-site projects</p>
 
         <p className="text-center custom_paragraph mt-6 text-sm">
           &copy; {new Date().getFullYear()} Samiudeen. Transforming ideas into

@@ -2,9 +2,10 @@ import React from "react";
 import Image from "next/image";
 import { TfiDownload } from "react-icons/tfi";
 import { IoIosPhonePortrait } from "react-icons/io";
-import { GrLocationPin } from "react-icons/gr";
+// import { GrLocationPin } from "react-icons/gr";
 import { FaWhatsapp } from "react-icons/fa";
 import Link from "next/link";
+import { location } from "../../public/assets";
 
 const Home = () => {
   return (
@@ -42,14 +43,13 @@ const Home = () => {
           <div className="sm:px-4 px-2">Web Apps & API Development</div>
         </div>
         <div className="flex justify-center flex-wrap mt-6 gap-3">
-          <div className="flex items-center bg-[#f9f9f9] rounded-md sm:px-4 px-4 py-1">
-            {/* <Image src="/pin.svg" width={20} height={20} alt="location" /> */}
-            <GrLocationPin className="text-red-500" size={22} />
-            <p>Dubai, UAE</p>
+          <div className="flex items-end bg-[#f9f9f9] rounded-md sm:px-4 px-4 py-1">
+            {/* <GrLocationPin className="text-red-500" size={22} /> */}
+            <Image src={location} width={30} height={30} alt="location" />
+            <p>Dubai, United Arab Emirates</p>
           </div>
 
-          <div className="flex items-center bg-[#f9f9f9] rounded-md sm:px-4 px-4 py-1">
-            {/* <Image src="/tel.svg" width={20} height={20} alt="telephone" /> */}
+          {/* <div className="flex items-center bg-[#f9f9f9] rounded-md sm:px-4 px-4 py-1">
             <IoIosPhonePortrait className="" size={22} />
             <p>+971 502126746</p>
           </div>
@@ -57,7 +57,7 @@ const Home = () => {
           <div className="flex items-center bg-[#f9f9f9] rounded-md sm:px-4 px-4 py-1">
             <FaWhatsapp className="text-green-400" size={22} />
             <p>+971 502126746</p>
-          </div>
+          </div> */}
         </div>
         <div className=" mt-10 flex gap-5 items-center justify-center">
           <a

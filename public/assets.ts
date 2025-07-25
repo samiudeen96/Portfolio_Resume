@@ -6,6 +6,7 @@ import javascript from "./tech/JavaScript.svg";
 import typescript from "./tech/TypeScript.svg";
 import bootstrap from "./tech/Bootstrap.svg";
 import tailwind from "./tech/Tailwind CSS.svg";
+import shadcn from "./tech/shadcn.svg";
 import responsive from "./tech/responsive.svg";
 
 import node from "./tech/Node.js.svg"
@@ -28,6 +29,7 @@ export {
   tailwind,
   bootstrap,
   javascript,
+  shadcn,
   typescript,
   responsive,
 

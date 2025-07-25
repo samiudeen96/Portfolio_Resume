@@ -32,6 +32,7 @@ import {
   redux,
   tailwind,
   bootstrap,
+  shadcn,
   javascript,
   typescript,
   responsive,
@@ -301,6 +302,11 @@ export const technologies: TechStack[] = [
         icon: bootstrap,
         label: "Bootstrap",
       },
+            {
+        icon: shadcn,
+        label: "Shadcn",
+      },
+      
       {
         icon: javascript,
         label: "Javascript",
@@ -337,7 +343,7 @@ export const technologies: TechStack[] = [
     ],
   },
   {
-    title: "Tools",
+    title: "DevOps & Tools",
     tech: [
       {
         icon: vscode,

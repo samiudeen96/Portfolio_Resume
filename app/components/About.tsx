@@ -14,9 +14,9 @@ const About = () => {
         <p>
           A passionate Frontend and Full Stack Developer with over 3 years of
           professional experience building fast, scalable, and responsive web
-          applications using React.js, Node.js, Express.js, MongoDB, and MySQL.
-          I bring a strong foundation in both frontend architecture and backend
-          API development, ensuring seamless user experiences from end to end.
+          applications. I bring a strong foundation in both frontend
+          architecture and backend API development, ensuring seamless user
+          experiences from end to end.
         </p>
         <p className="mt-4">
           Currently based in Dubai, I&apos;m actively seeking on-site or hybrid

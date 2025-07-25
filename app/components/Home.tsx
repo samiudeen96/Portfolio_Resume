@@ -4,6 +4,7 @@ import { TfiDownload } from "react-icons/tfi";
 import { IoIosPhonePortrait } from "react-icons/io";
 import { GrLocationPin } from "react-icons/gr";
 import { FaWhatsapp } from "react-icons/fa";
+import Link from "next/link";
 
 const Home = () => {
   return (
@@ -58,7 +59,7 @@ const Home = () => {
             <p>+971 502126746</p>
           </div>
         </div>
-        <div className=" mt-10 flex gap-10 items-center justify-center">
+        <div className=" mt-10 flex gap-5 items-center justify-center">
           <a
             href="/Samiudeen_Fullstack_Developer.pdf"
             download
@@ -66,12 +67,22 @@ const Home = () => {
           >
             <span className="absolute top-0 left-0 w-full h-full rounded-[12px] bg-black/25 shadow-transform transition-all duration-[600ms] ease-[cubic-bezier(0.3,0.7,0.4,1)] translate-y-[2px] hover:translate-y-[4px] active:translate-y-[1px]"></span>
             <span className="absolute top-0 left-0 w-full h-full rounded-[12px] bg-gradient-to-l from-[#7030e0] via-primary to-[#7030e0]"></span>
-            <span className="relative flex items-center gap-2 rounded-[12px] px-[27px] py-[8px] text-white text-sm bg-primary translate-y-[-4px] transition-all duration-[600ms] ease-[cubic-bezier(0.3,0.7,0.4,1)] hover:translate-y-[-6px] hover:duration-[250ms] hover:ease-[cubic-bezier(0.3,0.7,0.4,1.5)] active:translate-y-[-2px] active:duration-[34ms]">
+            <span className="relative flex items-center gap-2 rounded-[12px] px-[27px] py-[8px] text-white text-sm font-semibold bg-primary translate-y-[-4px] transition-all duration-[600ms] ease-[cubic-bezier(0.3,0.7,0.4,1)] hover:translate-y-[-6px] hover:duration-[250ms] hover:ease-[cubic-bezier(0.3,0.7,0.4,1.5)] active:translate-y-[-2px] active:duration-[34ms]">
               Resume <TfiDownload />
             </span>
           </a>
 
-          <div className="flex gap-5">
+          <Link href="#about"
+            className="relative p-0 mx-2 border-none bg-transparent cursor-pointer outline-offset-1 transition duration-250 hover:brightness-110"
+          >
+            <span className="absolute top-0 left-0 w-full h-full rounded-[12px] bg-black/25 shadow-transform transition-all duration-[600ms] ease-[cubic-bezier(0.3,0.7,0.4,1)] translate-y-[2px] hover:translate-y-[4px] active:translate-y-[1px]"></span>
+            <span className="absolute top-0 left-0 w-full h-full rounded-[12px] bg-gradient-to-l from-[#7030e0] via-primary to-[#7030e0]"></span>
+            <span className="relative flex items-center gap-2 rounded-[12px] px-[27px] py-[8px] text-primary text-sm font-semibold border-2 border-primary bg-background translate-y-[-4px] transition-all duration-[600ms] ease-[cubic-bezier(0.3,0.7,0.4,1)] hover:translate-y-[-6px] hover:duration-[250ms] hover:ease-[cubic-bezier(0.3,0.7,0.4,1.5)] active:translate-y-[-2px] active:duration-[34ms]">
+              About Me
+            </span>
+          </Link>
+
+          {/* <div className="flex gap-5">
             <a href="https://www.linkedin.com/in/samiudeen/" target="_blank">
               <Image
                 src="/linkedin.svg"
@@ -88,7 +99,7 @@ const Home = () => {
             <a href="mailto:samiudeen96amm@gmail.com">
               <Image src="/gmail.svg" width={30} height={30} alt="gmail" />
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

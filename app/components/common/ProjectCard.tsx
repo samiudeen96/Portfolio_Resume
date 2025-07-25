@@ -38,7 +38,7 @@ const ProjectCard: React.FC<Project> = ({
               {/* Live */}
               <div
                 onClick={() => window.open(live_link, "_blank")}
-                className="bg-[#009b2d] w-8 h-8 rounded-full flex justify-center items-center cursor-pointer"
+                className="bg-primary w-8 h-8 rounded-full flex justify-center items-center cursor-pointer"
               >
                 <Image
                   src={live}

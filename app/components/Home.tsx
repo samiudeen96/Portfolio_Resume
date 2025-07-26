@@ -31,19 +31,19 @@ const Home = () => {
             </h3>
           </div>
         </div>
-        <p className="sm:mt-10 mt-6 text-center sm:text-[22px] text-lg">
+        <p className="sm:mt-12 mt-6 text-center sm:text-[22px] text-lg">
           I craft seamless user interfaces, interactive experiences, and modern
           web applications.
         </p>
-        <div className="flex flex-wrap divide-x divide-gray-400 mt-4 justify-center sm:text-lg text-sm ">
+        <div className="flex flex-wrap divide-x divide-gray-400 mt-6 justify-center sm:text-lg text-sm ">
           <div className="sm:px-4 px-2">Frontend Developer</div>
           <div className="sm:px-4 px-2">Full Stack Developer</div>
           <div className="sm:px-4 px-2">React.js & Node.js</div>
           <div className="sm:px-4 px-2">MERN Stack Developer</div>
           <div className="sm:px-4 px-2">Web Apps & API Development</div>
         </div>
-        <div className="flex justify-center flex-wrap mt-6 gap-3">
-          <div className="flex items-end bg-[#f9f9f9] rounded-md sm:px-4 px-4 py-1">
+        <div className="flex justify-center flex-wrap mt-8 gap-3">
+          <div className="flex items-end sm:px-4 px-4 py-1">
             {/* <GrLocationPin className="text-red-500" size={22} /> */}
             <Image src={location} width={30} height={30} alt="location" />
             <p>Dubai, United Arab Emirates</p>

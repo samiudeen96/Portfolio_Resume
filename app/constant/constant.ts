@@ -11,7 +11,7 @@ import hotelGame from "../../public/project/hotelGame.png";
 import portfolio from "../../public/project/portfolio.png";
 import { TimelineItemType } from "../model/timelineModel";
 import Project from "../model/projectModel";
-// import todo from "../../public/project/todo.png"
+import todo from "../../public/project/notes.jpg"
 
 // service
 import api from "../../public/service/api.svg";
@@ -228,7 +228,7 @@ export const projects: Project[] = [
       },
     ],
     category: "Frontend",
-    image: collection,
+    image: todo,
     source_code_link: "https://github.com/samiudeen96/To-Do",
     live_link: "https://samiudeen96.github.io/To-Do",
   },

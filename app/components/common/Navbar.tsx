@@ -47,10 +47,10 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 py-4 relative">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <div className="flex gap-2 items-center">
+          <Link href="#home" className="flex gap-2 items-center">
             <Image src="/logo.svg" alt="logo" width={40} height={40} />
             <p className="font-semibold text-2xl">Samiudeen</p>
-          </div>
+          </Link>
 
           {/* Desktop Menu */}
           <ul className="hidden md:flex gap-8 items-center">

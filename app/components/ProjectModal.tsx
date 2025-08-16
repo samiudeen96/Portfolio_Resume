@@ -46,17 +46,17 @@ const ProjectModal = () => {
         {/* Body → scroll only inside modal */}
         <div className="overflow-y-auto p-4 sm:p-6 flex-1">
           <div className="space-y-1 mb-6">
-            <h3 className="font-semibold text-primary">Tagline</h3>
+            <h3 className="font-semibold text-primary text-lg">Tagline</h3>
             <p className="">{selectedProject.tagline}</p>
           </div>
 
           <div className="space-y-1 mb-6">
-            <h3 className="font-semibold text-primary">Overview</h3>
+            <h3 className="font-semibold text-primary text-lg">Overview</h3>
             <p className="leading-[30px]">{selectedProject.overview}</p>
           </div>
 
           <div className="space-y-1 mb-6">
-            <h3 className="font-semibold text-primary">
+            <h3 className="font-semibold text-primary text-lg">
               Features & Functionality
             </h3>
             {/* <p className="">{selectedProject.overview}</p> */}
@@ -72,7 +72,7 @@ const ProjectModal = () => {
           </div>
 
           <div className="space-y-4 mb-6">
-            <h3 className="font-semibold text-primary text-lg sm:text-xl">
+            <h3 className="font-semibold text-primary text-lg">
               Tech Stack
             </h3>
             <div className="space-y-4">
@@ -97,7 +97,7 @@ const ProjectModal = () => {
           </div>
 
           <div className="space-y-1 mb-6">
-            <h3 className="font-semibold text-primary">Outcome</h3>
+            <h3 className="font-semibold text-primary text-lg">Outcome</h3>
             <p className="leading-[30px]">{selectedProject.outcome}</p>
           </div>
         </div>

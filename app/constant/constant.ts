@@ -331,12 +331,25 @@ export const projects: Project[] = [
   },
   {
     name: "Hotel Game",
-    tagline: "",
+    tagline:
+      "Manage your virtual hotel, optimize services, and grow your business in a dynamic simulation environment.",
     overview:
-      "Web page is likely based on a hotel management simulation game where players manage a hotel, handle bookings, and optimize services to grow their business.",
+      "Developed a web-based hotel management simulation game where players take on the role of a hotel manager, handling bookings, managing resources, and optimizing services to grow their business. The game provides interactive dashboards, animated UI elements, and real-time statistics to enhance player engagement.",
     features: [
       {
-        list: `<b></b>: `,
+        list: `<b>Hotel Management</b>: Players manage hotel rooms, services, and staff to maximize customer satisfaction and revenue.`,
+      },
+      {
+        list: `<b>Bookings & Reservations</b>: Handle room bookings and cancellations with dynamic availability updates.`,
+      },
+      {
+        list: `<b>Performance Tracking</b>: Visualize hotel performance using Chart.js for occupancy, revenue, and customer ratings.`,
+      },
+      {
+        list: `<b>Interactive UI</b>: Smooth animations using Angular Animations for engaging gameplay and transitions.`,
+      },
+      {
+        list: `<b>Responsive Design</b>: Built with Bootstrap to ensure compatibility across devices and screen sizes.`,
       },
     ],
     tech: [
@@ -344,55 +357,21 @@ export const projects: Project[] = [
         label: "Frontend",
         stack: [
           {
-            name: "React.js",
+            name: "Angular",
           },
           {
-            name: "Tailwind CSS",
+            name: "Angular Animations",
           },
           {
-            name: "Context API",
+            name: "Bootstrap",
           },
           {
-            name: "Axios",
-          },
-        ],
-      },
-      {
-        label: "Backend",
-        stack: [
-          {
-            name: "Node.js",
-          },
-          {
-            name: "Express.js",
-          },
-          {
-            name: "MongoDB",
-          },
-          {
-            name: "JWT",
-          },
-          {
-            name: "Cloudinary",
-          },
-          {
-            name: "Multer",
-          },
-        ],
-      },
-      {
-        label: "Payment & Integration",
-        stack: [
-          {
-            name: "Razorpay",
-          },
-          {
-            name: "Stripe",
+            name: "Chart.js",
           },
         ],
       },
     ],
-    outcome: "",
+    outcome: "A fully interactive hotel management simulation game demonstrating frontend development skills, dynamic UI interactions, data visualization, and responsive design—showcasing the ability to build engaging web-based simulations.",
     category: "Frontend",
     image: hotelGame,
     source_code_link: "https://github.com/samiudeen96/hotelGame",

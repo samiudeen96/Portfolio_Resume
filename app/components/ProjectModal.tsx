@@ -77,16 +77,16 @@ const ProjectModal = () => {
             </h3>
             <div className="space-y-4">
               {selectedProject.tech.map((group, index) => (
-                <div key={index} className="flex flex-wrap items-center">
+                <div key={index} className="flex flex-wrap gap-2 items-center">
                   <span className="font-semibold mr-2">{group.label}:</span>
                   {group.stack.map((item, idx) => (
                     <React.Fragment key={idx}>
                       <span className="bg-background px-2 py-1 rounded mb-2 sm:mb-0">
                         {item.name}
                       </span>
-                      {idx < group.stack.length - 1 && (
+                      {/* {idx < group.stack.length - 1 && (
                         <span className="hidden sm:inline-block border-l-2 border-background mx-2 h-4" />
-                      )}
+                      )} */}
                     </React.Fragment>
                   ))}
                 </div>

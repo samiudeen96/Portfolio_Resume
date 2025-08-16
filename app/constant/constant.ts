@@ -381,24 +381,32 @@ export const projects: Project[] = [
   },
   {
     name: "Dashboard",
-    tagline: "A versatile and secure dashboard application for managing data, users, and insights—ideal for CRM or admin platforms.",
-    overview: "Developed a full-stack dashboard application that can be adapted for CRM systems or other admin-focused platforms. The app provides secure authentication (both local and Google OAuth), real-time data handling, and a modern, responsive UI with engaging visual elements.",
+    tagline:
+      "A versatile and secure dashboard application for managing data, users, and insights—ideal for CRM or admin platforms.",
+    overview:
+      "Built a full-stack role-based dashboard application designed for CRM or similar business platforms that require secure access and interactive data visualization. The application supports role-based authentication, OAuth login (Google), and local authentication with session handling via cookies. It features a responsive UI, dynamic data fetching, and engaging animations for a modern user experience.",
     features: [
       {
-        list: `<b>User Authentication</b>: Implemented local authentication and Google OAuth with Passport.js and JWT, secured with cookies for session persistence.`,
+        list: `<b>Role-Based Authentication</b>: Different access levels for users and admins, secured with JWT and Passport.js.`,
       },
       {
-        list: `<b>State Management</b>: Handled global app state using Zustand and TanStack React Query for efficient server state management.`,
+        list: `<b>OAuth Integration</b>: Login with Google alongside traditional local authentication.`,
       },
       {
-        list: `<b>Dynamic Data Handling</b>: Integrated Axios for API communication and MongoDB as the database for scalable data storage.`,
+        list: `<b>Session Handling</b>: Managed authentication and persistence using cookie parser for secure sessions.`,
       },
       {
-        list: `<b>Engaging UI</b>: Built a responsive, modern design with React + Tailwind CSS, enhanced with Lottie animations for an interactive experience.`,
+        list: `<b>State Management</b>: Global state handled with Zustand for scalable and efficient data flow.`,
       },
       {
-        list: `<b>Admin/CRM Ready</b>: Designed modular components for user management, data visualization, and scalable integration with CRM or analytics systems.`,
-      }
+        list: `<b>Data Fetching & Caching</b>: Integrated TanStack React Query with Axios for optimized API communication.`,
+      },
+      {
+        list: `<b>Dynamic UI</b>: Responsive dashboard built with Tailwind CSS and enhanced with Lottie animations.`,
+      },
+      {
+        list: `<b>Backend APIs</b>: Developed with Node.js, Express, and MongoDB to handle authentication, data storage, and secure endpoints.`,
+      },
     ],
     tech: [
       {
@@ -420,8 +428,8 @@ export const projects: Project[] = [
             name: "Axios",
           },
           {
-            name: "Lottie Player"
-          }
+            name: "Lottie Player",
+          },
         ],
       },
       {
@@ -451,7 +459,8 @@ export const projects: Project[] = [
         ],
       },
     ],
-    outcome: "A secure and customizable dashboard platform demonstrating expertise in authentication, state management, full-stack integration, and responsive UI design—suitable for CRM systems, admin panels, or analytics dashboards.",
+    outcome:
+      "A flexible and secure dashboard system demonstrating end-to-end full-stack development skills, role-based authentication, and OAuth integration, suitable for CRM or business management applications.",
     category: "Full Stack",
     image: dashboard,
     source_code_link: "https://github.com/samiudeen96/dashboard",

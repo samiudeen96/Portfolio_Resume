@@ -59,9 +59,9 @@ const Portfolio = () => {
           </div>
 
           {/* Project Cards */}
-          <div className="mt-5 flex flex-wrap gap-8 pb-10">
+          <div className="mt-5 card_container pb-10">
             {content.map((project, index) => (
-              <ProjectCard key={`project-${index}`} {...project} />
+              <ProjectCard key={`project-${index}`} {...project}  />
             ))}
           </div>
         </div>

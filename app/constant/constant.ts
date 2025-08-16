@@ -11,7 +11,7 @@ import hotelGame from "../../public/project/hotelGame.png";
 import portfolio from "../../public/project/portfolio.png";
 import { TimelineItemType } from "../model/timelineModel";
 import Project from "../model/projectModel";
-import todo from "../../public/project/notes.jpg"
+import todo from "../../public/project/notes.jpg";
 
 // service
 import api from "../../public/service/api.svg";
@@ -101,136 +101,6 @@ export const education: TimelineItemType[] = [
     icon: jamal,
     iconBg: "#E6DEDD",
     date: "Apr 2014 - Dec 2017",
-  },
-];
-
-export const projects: Project[] = [
-  {
-    name: "Ecommerce",
-    description:
-      "Web-based platform for buying and selling products or services. It includes features like product listings, shopping carts, secure payments, and order management.",
-    tags: [
-      {
-        name: "react",
-        color: "text-blue-400",
-      },
-      {
-        name: "tailwind",
-        color: "text-blue-500",
-      },
-      {
-        name: "node.js",
-        color: "text-green-500",
-      },
-      {
-        name: "mongodb",
-        color: "text-green-600",
-      },
-    ],
-    category: "Full Stack",
-    image: collection,
-    source_code_link: "https://github.com/samiudeen96/collection",
-    live_link: "https://collection-plum.vercel.app/",
-  },
-  {
-    name: "Hotel Game",
-    description:
-      "Web page is likely based on a hotel management simulation game where players manage a hotel, handle bookings, and optimize services to grow their business.",
-    tags: [
-      {
-        name: "angular",
-        color: "text-red-500",
-      },
-      {
-        name: "typeScript",
-        color: "text-blue-500",
-      },
-      {
-        name: "bootstarp",
-        color: "text-violet-600",
-      },
-    ],
-    category: "Frontend",
-    image: hotelGame,
-    source_code_link: "https://github.com/samiudeen96/hotelGame",
-    live_link: "https://hasnatech.github.io/hotel_game/",
-  },
-  {
-    name: "Expense Tracker",
-    description:
-      "Built a finance tracking app to manage income and expenses with real-time balance updates. Included category-wise summaries for better financial insights.",
-    tags: [
-      {
-        name: "react",
-        color: "text-blue-400",
-      },
-      {
-        name: "tailwind",
-        color: "text-blue-500",
-      },
-      {
-        name: "node.js",
-        color: "text-green-500",
-      },
-      {
-        name: "MySQL",
-        color: "text-blue-900",
-      },
-    ],
-    category: "Full Stack",
-    image: expTracker,
-    source_code_link: "https://github.com/samiudeen96/ExpenseTracker",
-    live_link: "https://expensetracker-samiudeen.vercel.app/",
-  },
-  {
-    name: "3D Portfolio",
-    description:
-      "Created an immersive 3D portfolio experience that blends modern web technologies with interactive design. Showcases development skills and personal projects by Samiudeen.",
-    tags: [
-      {
-        name: "react",
-        color: "text-blue-400",
-      },
-      {
-        name: "javascript",
-        color: "text-yellow-500",
-      },
-      {
-        name: "tailwind",
-        color: "text-blue-500",
-      },
-      {
-        name: "three.js",
-        color: "",
-      },
-    ],
-    category: "Frontend",
-    image: portfolio,
-    source_code_link: "https://github.com/samiudeen96/3D_portfolio",
-    live_link: "https://samiudeen96.github.io/3D_portfolio/",
-  },
-  {
-    name: "ToDo App",
-    description:
-      "Developed a simple and clean To-Do web app for task management. Users can create, view, filter, edit, and delete tasks based on their status.",
-    tags: [
-      {
-        name: "react",
-        color: "text-blue-400",
-      },
-      {
-        name: "javascript",
-        color: "text-yellow-500",
-      },
-      {
-        name: "tailwind",
-        color: "text-blue-500",
-      },
-    ],
-    category: "Frontend",
-    image: todo,
-    source_code_link: "https://github.com/samiudeen96/To-Do",
-    live_link: "https://samiudeen96.github.io/To-Do",
   },
 ];
 
@@ -369,5 +239,168 @@ export const technologies: TechStack[] = [
         label: "Postman",
       },
     ],
+  },
+];
+
+export const projects: Project[] = [
+  {
+    name: "Ecommerce",
+    tagline:
+      "A full-stack online store with secure payments, dynamic product management, and a modern responsive interface.",
+    overview:
+      "I developed a full-stack e-commerce platform designed to deliver a smooth and secure shopping experience for users, while providing admins with complete control over the store. The platform supports role-based access (User/Admin), dynamic product listings, advanced product filtering, and image management. It also integrates multiple payment options including Razorpay, Stripe, and Cash on Delivery (COD).",
+    features: [
+      {
+        list: `<b>Role-Based Access</b>: Users browse and purchase products; admins manage inventory, orders, and images.`,
+      },
+      {
+        list: `<b>Product Management</b>: Add, update, delete products; categorize and filter for easy discovery.`,
+      },
+      {
+        list: `<b>Secure Authentication</b>: JWT-based authentication for secure login and protected routes.`,
+      },
+      {
+        list: `<b>Image Handling</b>: Efficient image upload and management using Multer and Cloudinary.`,
+      },
+      {
+        list: `<b>Payment Integration</b>: Razorpay, Stripe, and COD for versatile payment options.`,
+      },
+      {
+        list: `<b>Responsive Design</b>: Mobile-first UI with React.js and Tailwind CSS.`,
+      },
+    ],
+    tags: [
+      {
+        name: "react",
+      },
+      {
+        name: "tailwind",
+      },
+      {
+        name: "node.js",
+      },
+      {
+        name: "mongodb",
+      },
+    ],
+    outcome:"A full-fledged e-commerce application demonstrating end-to-end development skills, from frontend design and state management to backend APIs, secure authentication, image handling, and payment integration.",
+    category: "Full Stack",
+    image: collection,
+    source_code_link: "https://github.com/samiudeen96/collection",
+    live_link: "https://collection-plum.vercel.app/",
+  },
+  {
+    name: "Hotel Game",
+    tagline: "",
+    overview:
+      "Web page is likely based on a hotel management simulation game where players manage a hotel, handle bookings, and optimize services to grow their business.",
+    features: [
+      {
+        list: `<b></b>: `,
+      },
+    ],
+    tags: [
+      {
+        name: "angular",
+      },
+      {
+        name: "typeScript",
+      },
+      {
+        name: "bootstarp",
+      },
+    ],
+    outcome:"",
+    category: "Frontend",
+    image: hotelGame,
+    source_code_link: "https://github.com/samiudeen96/hotelGame",
+    live_link: "https://hasnatech.github.io/hotel_game/",
+  },
+  {
+    name: "Expense Tracker",
+    tagline: "",
+    overview:
+      "Built a finance tracking app to manage income and expenses with real-time balance updates. Included category-wise summaries for better financial insights.",
+    features: [
+      {
+        list: `<b>Role-Based Access</b>: Users browse and purchase products; admins manage inventory, orders, and images.`,
+      },
+    ],
+    tags: [
+      {
+        name: "react",
+      },
+      {
+        name: "tailwind",
+      },
+      {
+        name: "node.js",
+      },
+      {
+        name: "MySQL",
+      },
+    ],
+    outcome:"",
+    category: "Full Stack",
+    image: expTracker,
+    source_code_link: "https://github.com/samiudeen96/ExpenseTracker",
+    live_link: "https://expensetracker-samiudeen.vercel.app/",
+  },
+  {
+    name: "3D Portfolio",
+    tagline: "",
+    overview:
+      "Created an immersive 3D portfolio experience that blends modern web technologies with interactive design. Showcases development skills and personal projects by Samiudeen.",
+    features: [
+      {
+        list: `<b>Role-Based Access</b>: Users browse and purchase products; admins manage inventory, orders, and images.`,
+      },
+    ],
+    tags: [
+      {
+        name: "react",
+      },
+      {
+        name: "javascript",
+      },
+      {
+        name: "tailwind",
+      },
+      {
+        name: "three.js",
+      },
+    ],
+    outcome:"",
+    category: "Frontend",
+    image: portfolio,
+    source_code_link: "https://github.com/samiudeen96/3D_portfolio",
+    live_link: "https://samiudeen96.github.io/3D_portfolio/",
+  },
+  {
+    name: "ToDo App",
+    tagline: "",
+    overview:
+      "Developed a simple and clean To-Do web app for task management. Users can create, view, filter, edit, and delete tasks based on their status.",
+    features: [
+      {
+        list: `<b>Role-Based Access</b>: Users browse and purchase products; admins manage inventory, orders, and images.`,
+      },
+    ],
+    tags: [
+      {
+        name: "react",
+      },
+      {
+        name: "javascript",
+      },
+      {
+        name: "tailwind",
+      },
+    ],
+    outcome:"",
+    category: "Frontend",
+    image: todo,
+    source_code_link: "https://github.com/samiudeen96/To-Do",
+    live_link: "https://samiudeen96.github.io/To-Do",
   },
 ];

@@ -371,7 +371,8 @@ export const projects: Project[] = [
         ],
       },
     ],
-    outcome: "A fully interactive hotel management simulation game demonstrating frontend development skills, dynamic UI interactions, data visualization, and responsive design—showcasing the ability to build engaging web-based simulations.",
+    outcome:
+      "A fully interactive hotel management simulation game demonstrating frontend development skills, dynamic UI interactions, data visualization, and responsive design—showcasing the ability to build engaging web-based simulations.",
     category: "Frontend",
     image: hotelGame,
     source_code_link: "https://github.com/samiudeen96/hotelGame",
@@ -379,12 +380,31 @@ export const projects: Project[] = [
   },
   {
     name: "Expense Tracker",
-    tagline: "",
+    tagline:
+      "Track your income and expenses, gain financial insights, and manage your budget with ease.",
     overview:
-      "Built a finance tracking app to manage income and expenses with real-time balance updates. Included category-wise summaries for better financial insights.",
+      "Built a full-stack finance tracking application that allows users to manage their income and expenses, visualize their spending patterns, and gain actionable insights. The app provides real-time balance updates, and category-wise summaries.",
     features: [
       {
-        list: `<b>Role-Based Access</b>: Users browse and purchase products; admins manage inventory, orders, and images.`,
+        list: `<b>Income & Expense Management</b>: Add, update, and delete transactions to keep track of finances in real-time.`,
+      },
+      {
+        list: `<b>Category-Wise Summaries</b>: Visual breakdown of spending and income using charts for better financial insights.`,
+      },
+      {
+        list: `<b>Interactive Visuals</b>: Engaging UI with Recharts for graphs and Lottie React for animations.`,
+      },
+      {
+        list: `<b>Secure Authentication</b>: JWT-based authentication and role-based access for users.`,
+      },
+      {
+        list: `<b>Password Reset via Email</b>: Integrated Nodemailer to send password reset links with secure tokens.`,
+      },
+      {
+        list: `<b>Data Export</b>: Export financial data to Excel using XLSX for offline analysis.`,
+      },
+      {
+        list: `<b>Responsive Design</b>: Modern, mobile-first design using Tailwind CSS.`,
       },
     ],
     tech: [
@@ -403,6 +423,15 @@ export const projects: Project[] = [
           {
             name: "Axios",
           },
+          {
+            name: "TanStack React Query",
+          },
+          {
+            name: "Recharts",
+          },
+          {
+            name: "Lottie React",
+          },
         ],
       },
       {
@@ -415,32 +444,25 @@ export const projects: Project[] = [
             name: "Express.js",
           },
           {
-            name: "MongoDB",
+            name: "MySQL",
           },
           {
             name: "JWT",
           },
           {
-            name: "Cloudinary",
-          },
-          {
             name: "Multer",
           },
-        ],
-      },
-      {
-        label: "Payment & Integration",
-        stack: [
           {
-            name: "Razorpay",
+            name: "Nodemailer",
           },
           {
-            name: "Stripe",
+            name: "XLSX",
           },
         ],
       },
     ],
-    outcome: "",
+    outcome:
+      "A comprehensive finance tracking app demonstrating full-stack development skills, real-time data handling, secure authentication, interactive data visualization, and user-friendly responsive design.",
     category: "Full Stack",
     image: expTracker,
     source_code_link: "https://github.com/samiudeen96/ExpenseTracker",
@@ -448,12 +470,25 @@ export const projects: Project[] = [
   },
   {
     name: "3D Portfolio",
-    tagline: "",
+    tagline:
+      "An immersive 3D web experience that showcases my skills and projects with interactive design.",
     overview:
-      "Created an immersive 3D portfolio experience that blends modern web technologies with interactive design. Showcases development skills and personal projects by Samiudeen.",
+      "Developed a 3D interactive portfolio that provides a visually engaging way to showcase personal projects and development skills. The portfolio combines modern web technologies, smooth animations, and 3D elements to create a unique browsing experience.",
     features: [
       {
-        list: `<b>Role-Based Access</b>: Users browse and purchase products; admins manage inventory, orders, and images.`,
+        list: `<b>3D Interactive Design</b>: Leveraged Three.js to create immersive 3D visuals and interactive scenes.`,
+      },
+      {
+        list: `<b>Animated Transitions</b>: Smooth animations and page transitions using Framer Motion.`,
+      },
+      {
+        list: `<b>Project Timeline</b>: Displayed projects in a vertical timeline format using react-vertical-timeline-component for easy navigation.`,
+      },
+      {
+        list: `<b>Responsive Layout</b>: Built with Tailwind CSS to ensure seamless experience across devices.`,
+      },
+      {
+        list: `<b>Showcase of Skills</b>: Highlights personal projects, tech stack proficiency, and design capabilities in an engaging format.`,
       },
     ],
     tech: [
@@ -467,49 +502,15 @@ export const projects: Project[] = [
             name: "Tailwind CSS",
           },
           {
-            name: "Context API",
+            name: "Three.js",
           },
           {
-            name: "Axios",
-          },
+            name: "Framer Motion",
+          }
         ],
-      },
-      {
-        label: "Backend",
-        stack: [
-          {
-            name: "Node.js",
-          },
-          {
-            name: "Express.js",
-          },
-          {
-            name: "MongoDB",
-          },
-          {
-            name: "JWT",
-          },
-          {
-            name: "Cloudinary",
-          },
-          {
-            name: "Multer",
-          },
-        ],
-      },
-      {
-        label: "Payment & Integration",
-        stack: [
-          {
-            name: "Razorpay",
-          },
-          {
-            name: "Stripe",
-          },
-        ],
-      },
+      }
     ],
-    outcome: "",
+    outcome: "A visually striking portfolio that demonstrates modern frontend development skills, 3D web design, and interactive UI/UX, creating a memorable experience for visitors.",
     category: "Frontend",
     image: portfolio,
     source_code_link: "https://github.com/samiudeen96/3D_portfolio",
@@ -517,12 +518,21 @@ export const projects: Project[] = [
   },
   {
     name: "ToDo App",
-    tagline: "",
+    tagline: "A clean and intuitive task management app to organize and track your daily tasks efficiently.",
     overview:
-      "Developed a simple and clean To-Do web app for task management. Users can create, view, filter, edit, and delete tasks based on their status.",
+      "Developed a simple and responsive To-Do web application that helps users manage their tasks effectively. The app allows users to create, view, edit, filter, and delete tasks based on their status, providing a smooth and intuitive task management experience.",
     features: [
       {
-        list: `<b>Role-Based Access</b>: Users browse and purchase products; admins manage inventory, orders, and images.`,
+        list: `<b>Task Management</b>: Add, edit, delete, and mark tasks as completed or pending.`,
+      },
+      {
+        list: `<b>Task Filtering</b>: Filter tasks by status (all, to-start, in-progress, completed) for better organization.`,
+      },
+      {
+        list: `<b>Responsive Design</b>: Built with Tailwind CSS for a clean and mobile-friendly interface.`,
+      },
+      {
+        list: `<b>State Management</b>: Used React Context API to handle task data globally across components.`,
       },
     ],
     tech: [
@@ -537,48 +547,11 @@ export const projects: Project[] = [
           },
           {
             name: "Context API",
-          },
-          {
-            name: "Axios",
-          },
-        ],
-      },
-      {
-        label: "Backend",
-        stack: [
-          {
-            name: "Node.js",
-          },
-          {
-            name: "Express.js",
-          },
-          {
-            name: "MongoDB",
-          },
-          {
-            name: "JWT",
-          },
-          {
-            name: "Cloudinary",
-          },
-          {
-            name: "Multer",
-          },
-        ],
-      },
-      {
-        label: "Payment & Integration",
-        stack: [
-          {
-            name: "Razorpay",
-          },
-          {
-            name: "Stripe",
-          },
+          }
         ],
       },
     ],
-    outcome: "",
+    outcome: "A lightweight, user-friendly task management app demonstrating frontend development skills, state management, and responsive design principles.",
     category: "Frontend",
     image: todo,
     source_code_link: "https://github.com/samiudeen96/To-Do",

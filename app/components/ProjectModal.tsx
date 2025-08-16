@@ -75,7 +75,7 @@ const ProjectModal = () => {
             <h3 className="font-semibold text-primary text-lg sm:text-xl">
               Tech Stack
             </h3>
-            <div className="space-y-6">
+            <div className="space-y-4">
               {selectedProject.tech.map((group, index) => (
                 <div key={index} className="">
                   <div className="font-semibold mr-2">{group.label}:</div>

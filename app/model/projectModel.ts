@@ -9,9 +9,11 @@ export default interface Project {
   }[];
   category: "Frontend" | "Full Stack" | "All";
   image: string | StaticImageData;
-  tags: {
-    name: string;
-    // color: string;
+  tech: {
+    label: string; // e.g., "Frontend", "Backend", "Payment & Integration"
+    stack: {
+      name: string;
+    }[];
   }[];
   outcome: string;
   source_code_link: string;

@@ -72,15 +72,21 @@ const ProjectModal = () => {
           </div>
 
           <div className="space-y-1 mb-6">
-            <h3 className="font-semibold text-primary">Outcome</h3>
-            <p className="leading-[30px]">{selectedProject.outcome}</p>
+            <h3 className="font-semibold text-primary">Tech Stack</h3>
+            <div className="leading-[30px] space-y-2">
+              {selectedProject.tech.map((group, index) => (
+                <div key={index}>
+                  <span className="font-semibold">{group.label}:</span>{" "}
+                  {group.stack.map((item) => item.name).join(" | ")}
+                </div>
+              ))}
+            </div>
           </div>
 
           <div className="space-y-1 mb-6">
-            <h3 className="font-semibold text-primary">Tech Stack</h3>
-            <p className="leading-[30px]">{selectedProject.overview}</p>
+            <h3 className="font-semibold text-primary">Outcome</h3>
+            <p className="leading-[30px]">{selectedProject.outcome}</p>
           </div>
-          
         </div>
       </div>
     </div>

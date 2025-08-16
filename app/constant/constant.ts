@@ -269,42 +269,57 @@ export const projects: Project[] = [
         list: `<b>Responsive Design</b>: Mobile-first UI with React.js and Tailwind CSS.`,
       },
     ],
-    tags: [
+    tech: [
       {
-        name: "React.js",
+        label: "Frontend",
+        stack: [
+          {
+            name: "React.js",
+          },
+          {
+            name: "Tailwind CSS",
+          },
+          {
+            name: "Context API",
+          },
+          {
+            name: "Axios",
+          },
+        ],
       },
       {
-        name: "Tailwind CSS",
+        label: "Backend",
+        stack: [
+          {
+            name: "Node.js",
+          },
+          {
+            name: "Express.js",
+          },
+          {
+            name: "MongoDB",
+          },
+          {
+            name: "JWT",
+          },
+          {
+            name: "Cloudinary",
+          },
+          {
+            name: "Multer",
+          },
+        ],
       },
       {
-        name: "Context API",
-      },
-      {
-        name: "Axios",
-      },
-      {
-        name: "Node.js",
-      },
-      {
-        name: "Express.js",
-      },
-      {
-        name: "MongoDB",
-      },
-      {
-        name: "JWT",
-      },
-      {
-        name: "Cloudinary",
-      },
-      {
-        name: "Multer",
-      },
-      {
-        name: "Razorpay",
-      },
-      {
-        name: "Stripe",
+        label: "Payment & Integration",
+        stack: [
+          {
+            name: "Razorpay",
+          },
+          {
+            name: "Stripe",
+          },
+        ],
       },
     ],
     outcome:
@@ -324,15 +339,57 @@ export const projects: Project[] = [
         list: `<b></b>: `,
       },
     ],
-    tags: [
+    tech: [
       {
-        name: "angular",
+        label: "Frontend",
+        stack: [
+          {
+            name: "React.js",
+          },
+          {
+            name: "Tailwind CSS",
+          },
+          {
+            name: "Context API",
+          },
+          {
+            name: "Axios",
+          },
+        ],
       },
       {
-        name: "typeScript",
+        label: "Backend",
+        stack: [
+          {
+            name: "Node.js",
+          },
+          {
+            name: "Express.js",
+          },
+          {
+            name: "MongoDB",
+          },
+          {
+            name: "JWT",
+          },
+          {
+            name: "Cloudinary",
+          },
+          {
+            name: "Multer",
+          },
+        ],
       },
       {
-        name: "bootstarp",
+        label: "Payment & Integration",
+        stack: [
+          {
+            name: "Razorpay",
+          },
+          {
+            name: "Stripe",
+          },
+        ],
       },
     ],
     outcome: "",
@@ -351,18 +408,57 @@ export const projects: Project[] = [
         list: `<b>Role-Based Access</b>: Users browse and purchase products; admins manage inventory, orders, and images.`,
       },
     ],
-    tags: [
+    tech: [
       {
-        name: "react",
+        label: "Frontend",
+        stack: [
+          {
+            name: "React.js",
+          },
+          {
+            name: "Tailwind CSS",
+          },
+          {
+            name: "Context API",
+          },
+          {
+            name: "Axios",
+          },
+        ],
       },
       {
-        name: "tailwind",
+        label: "Backend",
+        stack: [
+          {
+            name: "Node.js",
+          },
+          {
+            name: "Express.js",
+          },
+          {
+            name: "MongoDB",
+          },
+          {
+            name: "JWT",
+          },
+          {
+            name: "Cloudinary",
+          },
+          {
+            name: "Multer",
+          },
+        ],
       },
       {
-        name: "node.js",
-      },
-      {
-        name: "MySQL",
+        label: "Payment & Integration",
+        stack: [
+          {
+            name: "Razorpay",
+          },
+          {
+            name: "Stripe",
+          },
+        ],
       },
     ],
     outcome: "",
@@ -381,18 +477,57 @@ export const projects: Project[] = [
         list: `<b>Role-Based Access</b>: Users browse and purchase products; admins manage inventory, orders, and images.`,
       },
     ],
-    tags: [
+    tech: [
       {
-        name: "react",
+        label: "Frontend",
+        stack: [
+          {
+            name: "React.js",
+          },
+          {
+            name: "Tailwind CSS",
+          },
+          {
+            name: "Context API",
+          },
+          {
+            name: "Axios",
+          },
+        ],
       },
       {
-        name: "javascript",
+        label: "Backend",
+        stack: [
+          {
+            name: "Node.js",
+          },
+          {
+            name: "Express.js",
+          },
+          {
+            name: "MongoDB",
+          },
+          {
+            name: "JWT",
+          },
+          {
+            name: "Cloudinary",
+          },
+          {
+            name: "Multer",
+          },
+        ],
       },
       {
-        name: "tailwind",
-      },
-      {
-        name: "three.js",
+        label: "Payment & Integration",
+        stack: [
+          {
+            name: "Razorpay",
+          },
+          {
+            name: "Stripe",
+          },
+        ],
       },
     ],
     outcome: "",
@@ -411,15 +546,57 @@ export const projects: Project[] = [
         list: `<b>Role-Based Access</b>: Users browse and purchase products; admins manage inventory, orders, and images.`,
       },
     ],
-    tags: [
+    tech: [
       {
-        name: "react",
+        label: "Frontend",
+        stack: [
+          {
+            name: "React.js",
+          },
+          {
+            name: "Tailwind CSS",
+          },
+          {
+            name: "Context API",
+          },
+          {
+            name: "Axios",
+          },
+        ],
       },
       {
-        name: "javascript",
+        label: "Backend",
+        stack: [
+          {
+            name: "Node.js",
+          },
+          {
+            name: "Express.js",
+          },
+          {
+            name: "MongoDB",
+          },
+          {
+            name: "JWT",
+          },
+          {
+            name: "Cloudinary",
+          },
+          {
+            name: "Multer",
+          },
+        ],
       },
       {
-        name: "tailwind",
+        label: "Payment & Integration",
+        stack: [
+          {
+            name: "Razorpay",
+          },
+          {
+            name: "Stripe",
+          },
+        ],
       },
     ],
     outcome: "",

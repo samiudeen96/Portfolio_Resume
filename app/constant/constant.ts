@@ -7,6 +7,7 @@ import Service from "../model/serviceModel";
 // Project
 import collection from "../../public/project/collection.png";
 import expTracker from "../../public/project/expTracker.png";
+import dashboard from "../../public/project/dashboard.png";
 import hotelGame from "../../public/project/hotelGame.png";
 import portfolio from "../../public/project/portfolio.png";
 import { TimelineItemType } from "../model/timelineModel";
@@ -379,6 +380,84 @@ export const projects: Project[] = [
     live_link: "https://hasnatech.github.io/hotel_game/",
   },
   {
+    name: "Dashboard",
+    tagline: "A versatile and secure dashboard application for managing data, users, and insights—ideal for CRM or admin platforms.",
+    overview: "Developed a full-stack dashboard application that can be adapted for CRM systems or other admin-focused platforms. The app provides secure authentication (both local and Google OAuth), real-time data handling, and a modern, responsive UI with engaging visual elements.",
+    features: [
+      {
+        list: `<b>User Authentication</b>: Implemented local authentication and Google OAuth with Passport.js and JWT, secured with cookies for session persistence.`,
+      },
+      {
+        list: `<b>State Management</b>: Handled global app state using Zustand and TanStack React Query for efficient server state management.`,
+      },
+      {
+        list: `<b>Dynamic Data Handling</b>: Integrated Axios for API communication and MongoDB as the database for scalable data storage.`,
+      },
+      {
+        list: `<b>Engaging UI</b>: Built a responsive, modern design with React + Tailwind CSS, enhanced with Lottie animations for an interactive experience.`,
+      },
+      {
+        list: `<b>Admin/CRM Ready</b>: Designed modular components for user management, data visualization, and scalable integration with CRM or analytics systems.`,
+      }
+    ],
+    tech: [
+      {
+        label: "Frontend",
+        stack: [
+          {
+            name: "React.js",
+          },
+          {
+            name: "Tailwind CSS",
+          },
+          {
+            name: "Zustand",
+          },
+          {
+            name: "TanStack React Query",
+          },
+          {
+            name: "Axios",
+          },
+          {
+            name: "Lottie Player"
+          }
+        ],
+      },
+      {
+        label: "Backend",
+        stack: [
+          {
+            name: "Node.js",
+          },
+          {
+            name: "Express.js",
+          },
+          {
+            name: "MongoDB",
+          },
+          {
+            name: "JWT",
+          },
+          {
+            name: "Passport.js",
+          },
+          {
+            name: "OAuth (Google)",
+          },
+          {
+            name: "Cookie Parser",
+          },
+        ],
+      },
+    ],
+    outcome: "A secure and customizable dashboard platform demonstrating expertise in authentication, state management, full-stack integration, and responsive UI design—suitable for CRM systems, admin panels, or analytics dashboards.",
+    category: "Full Stack",
+    image: dashboard,
+    source_code_link: "https://github.com/samiudeen96/dashboard",
+    live_link: "https://dashboard-frontend-application.vercel.app/",
+  },
+  {
     name: "Expense Tracker",
     tagline:
       "Track your income and expenses, gain financial insights, and manage your budget with ease.",
@@ -418,14 +497,12 @@ export const projects: Project[] = [
             name: "Tailwind CSS",
           },
           {
-            name: "Context API",
+            name: "TanStack React Query",
           },
           {
             name: "Axios",
           },
-          {
-            name: "TanStack React Query",
-          },
+
           {
             name: "Recharts",
           },
@@ -506,11 +583,12 @@ export const projects: Project[] = [
           },
           {
             name: "Framer Motion",
-          }
+          },
         ],
-      }
+      },
     ],
-    outcome: "A visually striking portfolio that demonstrates modern frontend development skills, 3D web design, and interactive UI/UX, creating a memorable experience for visitors.",
+    outcome:
+      "A visually striking portfolio that demonstrates modern frontend development skills, 3D web design, and interactive UI/UX, creating a memorable experience for visitors.",
     category: "Frontend",
     image: portfolio,
     source_code_link: "https://github.com/samiudeen96/3D_portfolio",
@@ -518,7 +596,8 @@ export const projects: Project[] = [
   },
   {
     name: "ToDo App",
-    tagline: "A clean and intuitive task management app to organize and track your daily tasks efficiently.",
+    tagline:
+      "A clean and intuitive task management app to organize and track your daily tasks efficiently.",
     overview:
       "Developed a simple and responsive To-Do web application that helps users manage their tasks effectively. The app allows users to create, view, edit, filter, and delete tasks based on their status, providing a smooth and intuitive task management experience.",
     features: [
@@ -547,11 +626,12 @@ export const projects: Project[] = [
           },
           {
             name: "Context API",
-          }
+          },
         ],
       },
     ],
-    outcome: "A lightweight, user-friendly task management app demonstrating frontend development skills, state management, and responsive design principles.",
+    outcome:
+      "A lightweight, user-friendly task management app demonstrating frontend development skills, state management, and responsive design principles.",
     category: "Frontend",
     image: todo,
     source_code_link: "https://github.com/samiudeen96/To-Do",

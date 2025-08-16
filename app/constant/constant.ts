@@ -271,19 +271,44 @@ export const projects: Project[] = [
     ],
     tags: [
       {
-        name: "react",
+        name: "React.js",
       },
       {
-        name: "tailwind",
+        name: "Tailwind CSS",
       },
       {
-        name: "node.js",
+        name: "Context API",
       },
       {
-        name: "mongodb",
+        name: "Axios",
+      },
+      {
+        name: "Node.js",
+      },
+      {
+        name: "Express.js",
+      },
+      {
+        name: "MongoDB",
+      },
+      {
+        name: "JWT",
+      },
+      {
+        name: "Cloudinary",
+      },
+      {
+        name: "Multer",
+      },
+      {
+        name: "Razorpay",
+      },
+      {
+        name: "Stripe",
       },
     ],
-    outcome:"A full-fledged e-commerce application demonstrating end-to-end development skills, from frontend design and state management to backend APIs, secure authentication, image handling, and payment integration.",
+    outcome:
+      "A full-fledged e-commerce application demonstrating end-to-end development skills, from frontend design and state management to backend APIs, secure authentication, image handling, and payment integration.",
     category: "Full Stack",
     image: collection,
     source_code_link: "https://github.com/samiudeen96/collection",
@@ -310,7 +335,7 @@ export const projects: Project[] = [
         name: "bootstarp",
       },
     ],
-    outcome:"",
+    outcome: "",
     category: "Frontend",
     image: hotelGame,
     source_code_link: "https://github.com/samiudeen96/hotelGame",
@@ -340,7 +365,7 @@ export const projects: Project[] = [
         name: "MySQL",
       },
     ],
-    outcome:"",
+    outcome: "",
     category: "Full Stack",
     image: expTracker,
     source_code_link: "https://github.com/samiudeen96/ExpenseTracker",
@@ -370,7 +395,7 @@ export const projects: Project[] = [
         name: "three.js",
       },
     ],
-    outcome:"",
+    outcome: "",
     category: "Frontend",
     image: portfolio,
     source_code_link: "https://github.com/samiudeen96/3D_portfolio",
@@ -397,7 +422,7 @@ export const projects: Project[] = [
         name: "tailwind",
       },
     ],
-    outcome:"",
+    outcome: "",
     category: "Frontend",
     image: todo,
     source_code_link: "https://github.com/samiudeen96/To-Do",

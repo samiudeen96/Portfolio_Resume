@@ -23,7 +23,7 @@ props
   return (
     <div>
       <div
-        className="p-4 rounded-lg w-full shadow-md bg-white"
+        className="p-4 rounded-lg w-full shadow-md bg-white cursor-pointer"
         onClick={() => openModal(props)}
       >
         <div className="">

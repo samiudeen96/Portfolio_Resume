@@ -29,15 +29,15 @@ const ProjectModal = () => {
       onClick={() => closeModal()} // close on backdrop click
     >
       <div
-        className="bg-white rounded-lg shadow-lg w-full sm:max-w-[90%] lg:max-w-[90%] max-h-[90vh] animate-fadeIn flex flex-col"
-        onClick={(e) => e.stopPropagation()} // prevent closing when clicking inside
+        className="bg-white rounded-lg shadow-lg w-full sm:max-w-[90%] lg:max-w-[90%] max-h-[90vh] flex flex-col animate-fadeIn"
+        onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}
         <div className="flex justify-between items-center py-3 px-4 sm:px-6 border-b border-background">
           <h2 className="text-xl font-semibold">{selectedProject.name}</h2>
           <button
             className="text-gray-500 hover:text-gray-800 text-xl cursor-pointer"
-            onClick={() => closeModal()}
+            onClick={closeModal}
           >
             ✕
           </button>
@@ -46,17 +46,19 @@ const ProjectModal = () => {
         {/* Body → scroll only inside modal */}
         <div className="overflow-y-auto p-4 sm:p-6 flex-1">
           <div className="space-y-1 mb-6">
-            <h3 className="font-semibold">Tagline</h3>
+            <h3 className="font-semibold text-primary">Tagline</h3>
             <p className="">{selectedProject.tagline}</p>
           </div>
 
           <div className="space-y-1 mb-6">
-            <h3 className="font-semibold">Overview</h3>
+            <h3 className="font-semibold text-primary">Overview</h3>
             <p className="leading-[30px]">{selectedProject.overview}</p>
           </div>
 
           <div className="space-y-1 mb-6">
-            <h3 className="font-semibold">Features & Functionality</h3>
+            <h3 className="font-semibold text-primary">
+              Features & Functionality
+            </h3>
             {/* <p className="">{selectedProject.overview}</p> */}
             <ul className="list-disc px-8">
               {selectedProject.features?.map((item, index) => (
@@ -70,15 +72,15 @@ const ProjectModal = () => {
           </div>
 
           <div className="space-y-1 mb-6">
-            <h3 className="font-semibold">Tech Stack</h3>
-            <p className="leading-[30px]">{selectedProject.overview}</p>
-          </div>
-
-          <div className="space-y-1 mb-6">
-            <h3 className="font-semibold">Outcome</h3>
+            <h3 className="font-semibold text-primary">Outcome</h3>
             <p className="leading-[30px]">{selectedProject.outcome}</p>
           </div>
 
+          <div className="space-y-1 mb-6">
+            <h3 className="font-semibold text-primary">Tech Stack</h3>
+            <p className="leading-[30px]">{selectedProject.overview}</p>
+          </div>
+          
         </div>
       </div>
     </div>

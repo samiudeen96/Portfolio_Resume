@@ -23,7 +23,7 @@ props
   return (
     <div>
       <div
-        className="p-4 rounded-lg w-full shadow-md bg-white cursor-pointer"
+        className="p-4 rounded-lg w-full shadow-md bg-white cursor-pointer relative overflow-hidden group"
         onClick={() => openModal(props)}
       >
         <div className="">
@@ -63,6 +63,9 @@ props
             alt={props.name}
             className="w-full h-full object-cover rounded-lg"
           />
+        </div>
+        <div className="absolute bg-black/60 w-full h-full top-0 right-0 transition  items-center justify-center hidden group-hover:flex group-hover:cursor-default">
+          <button className="text-lg text-white border-2 bg-primary px-4 py-2 rounded-md cursor-pointer">Read more</button>
         </div>
       </div>
     </div>

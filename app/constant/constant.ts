@@ -47,6 +47,10 @@ import {
   restapi,
   postman,
   vscode,
+  zustand,
+  rtq,
+  passport,
+  oauth,
 } from "../../public/assets";
 
 export const experiences: TimelineItemType[] = [
@@ -161,10 +165,6 @@ export const technologies: TechStack[] = [
         label: "Angular",
       },
       {
-        icon: redux,
-        label: "Redux",
-      },
-      {
         icon: tailwind,
         label: "Tailwind CSS",
       },
@@ -176,7 +176,6 @@ export const technologies: TechStack[] = [
         icon: shadcn,
         label: "Shadcn",
       },
-
       {
         icon: javascript,
         label: "Javascript",
@@ -184,6 +183,18 @@ export const technologies: TechStack[] = [
       {
         icon: typescript,
         label: "Typescript",
+      },
+      {
+        icon: redux,
+        label: "Redux",
+      },
+      {
+        icon: zustand,
+        label: "Zustand",
+      },
+      {
+        icon: rtq,
+        label: "TanStack Query",
       },
       {
         icon: responsive,
@@ -201,6 +212,14 @@ export const technologies: TechStack[] = [
       {
         icon: express,
         label: "Express.js",
+      },
+      {
+        icon: passport,
+        label: "Passport.js",
+      },
+      {
+        icon: oauth,
+        label: "OAuth",
       },
       {
         icon: mongodb,

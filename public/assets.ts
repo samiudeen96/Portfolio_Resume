@@ -8,11 +8,16 @@ import bootstrap from "./tech/Bootstrap.svg";
 import tailwind from "./tech/Tailwind CSS.svg";
 import shadcn from "./tech/shadcn.svg";
 import responsive from "./tech/responsive.svg";
+import rtq from "./tech/rtq.svg"
+import zustand from "./tech/zustand.svg"
 
 import node from "./tech/Node.js.svg"
 import express from "./tech/Express.svg"
 import mongodb from "./tech/MongoDB.svg";
 import mysql from "./tech/sql.svg"
+import passport from "./tech/passport.svg"
+import oauth from "./tech/Oauth.svg"
+
 
 import git from "./tech/Git.svg"
 import github from "./tech/GitHub.svg"
@@ -40,11 +45,15 @@ export {
   shadcn,
   typescript,
   responsive,
+  rtq,
+  zustand,
 
   node,
   express,
   mongodb,
   mysql,
+  passport,
+  oauth,
 
   git,
   github,
@@ -60,5 +69,5 @@ export {
   newgit,
   location
 
-
 };
+ 
